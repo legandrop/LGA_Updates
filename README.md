@@ -38,7 +38,13 @@ las apps pasaron de ~9 requests por arranque a **1**.
         "legandrop/LGA_ToolPack-for_Nuke": {
             "tag": "v2.60",
             "publishedAt": "2026-07-01T12:00:00Z",
-            "assets": ["LGA_ToolPack_v2.60.zip"]
+            "assets": [
+                {
+                    "name": "LGA_ToolPack_v2.60.zip",
+                    "digest": "sha256:4d9a6e78...",
+                    "size": 26310201
+                }
+            ]
         }
     },
     "missing": ["legandrop/LGA_MediaTools_Release"]
@@ -47,9 +53,12 @@ las apps pasaron de ~9 requests por arranque a **1**.
 
 - La clave de cada producto es el **slug del repo de release**, y tiene que coincidir exacto con
   el `repoSlug` que declara el catalogo de PipeSync.
-- `assets` son los **nombres** de los archivos del release. La URL de descarga no se guarda
-  porque es derivable (`github.com/<repo>/releases/download/<tag>/<asset>`) y guardarla seria un
-  segundo lugar donde el mismo dato puede quedar viejo.
+- La URL de descarga no se guarda porque es derivable
+  (`github.com/<repo>/releases/download/<tag>/<asset>`) y guardarla seria un segundo lugar donde
+  el mismo dato puede quedar viejo.
+- El **`digest`** no es decorativo: la auto-actualizacion de FileManager S3 y de PipeSync
+  verifica el SHA-256 de lo que bajo antes de ejecutarlo. Si dejara de venir en el manifiesto,
+  esa verificacion se perderia sin que nadie se entere.
 - `missing` son los repos que no respondieron: sin releases todavia, privados, o renombrados.
   Estan listados a proposito — un producto que desaparece del manifiesto en silencio es
   indistinguible de uno que nunca estuvo.

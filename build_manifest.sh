@@ -48,10 +48,18 @@ for repo in "${REPOS[@]}"; do
 
     tag="$(jq -r '.tag_name' <<<"$release_json")"
     published="$(jq -r '.published_at // ""' <<<"$release_json")"
-    # Solo los NOMBRES de los assets. La URL de descarga no se guarda porque es derivable
+
+    # Nombre, digest y tamano de cada asset.
+    #
+    # La URL de descarga NO se guarda: es derivable
     # (github.com/<repo>/releases/download/<tag>/<asset>) y guardarla seria un segundo lugar
     # donde el mismo dato puede quedar viejo.
-    assets="$(jq -c '[.assets[]?.name]' <<<"$release_json")"
+    #
+    # El `digest` SI, y no es opcional: la auto-actualizacion de FileManager S3 y PipeSync
+    # verifica el SHA-256 de lo que bajo antes de ejecutarlo. Sin este campo esa verificacion
+    # se perderia en silencio, que es exactamente el tipo de proteccion que no se puede perder
+    # sin que nadie se entere.
+    assets="$(jq -c '[.assets[]? | {name: .name, digest: (.digest // ""), size: (.size // 0)}]' <<<"$release_json")"
 
     echo "  $tag ($(jq -r 'length' <<<"$assets") assets)"
 
