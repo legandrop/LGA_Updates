@@ -59,9 +59,17 @@ las apps pasaron de ~9 requests por arranque a **1**.
 - El **`digest`** no es decorativo: la auto-actualizacion de FileManager S3 y de PipeSync
   verifica el SHA-256 de lo que bajo antes de ejecutarlo. Si dejara de venir en el manifiesto,
   esa verificacion se perderia sin que nadie se entere.
-- `missing` son los repos que no respondieron: sin releases todavia, privados, o renombrados.
-  Estan listados a proposito — un producto que desaparece del manifiesto en silencio es
-  indistinguible de uno que nunca estuvo.
+- `missing` son los repos **sin release alcanzable de forma permanente**: sin releases todavia,
+  privados, o renombrados. Estan listados a proposito — un producto que desaparece del
+  manifiesto en silencio es indistinguible de uno que nunca estuvo.
+- Un repo que falla por algo **transitorio** (un 5xx, un corte de red) NO va a `missing`: se
+  conserva su entrada del manifiesto anterior y el proximo ciclo del cron la corrige. El
+  criterio es el status HTTP: 404 es permanente, todo lo demas se reintenta. Sin esto, un hipo
+  de la API publicaba un manifiesto sin ese producto y las apps lo mostraban como "sin version
+  remota", que es falso y encima pisaba el dato bueno.
+- `schemaVersion` es el contrato con las apps. **Subirlo rompe a las versiones ya instaladas a
+  proposito**: cada consumidor lo valida y prefiere no leer nada antes que malinterpretar
+  campos que cambiaron de significado. Agregar campos nuevos no requiere subirlo.
 
 ## Agregar un producto
 

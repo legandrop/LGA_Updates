@@ -13,6 +13,8 @@ set -euo pipefail
 
 REPOS_FILE="repos.json"
 OUT_FILE="versions.json"
+ERR_FILE="$(mktemp)"
+trap 'rm -f "$ERR_FILE"' EXIT
 
 if [[ ! -f "$REPOS_FILE" ]]; then
     echo "ERROR: no se encontro $REPOS_FILE" >&2
@@ -26,6 +28,15 @@ if [[ ${#REPOS[@]} -eq 0 ]]; then
     exit 1
 fi
 
+# El manifiesto ANTERIOR, si existe. Se usa para no perder una entrada buena cuando un repo
+# falla por algo transitorio (un 5xx, un corte de red, un rate limit). Sin esto, un hipo de la
+# API en una sola corrida publicaba un manifiesto sin ese producto, y el consumidor lo mostraba
+# como "sin version remota" — un diagnostico falso, y encima pisando el dato bueno anterior.
+previous="{}"
+if [[ -f "$OUT_FILE" ]]; then
+    previous="$(jq -c '.products // {}' "$OUT_FILE" 2>/dev/null || echo '{}')"
+fi
+
 products="{}"
 missing="[]"
 failed=0
@@ -33,16 +44,33 @@ failed=0
 for repo in "${REPOS[@]}"; do
     echo "Consultando $repo ..."
 
-    # `|| true` para NO cortar el build por un repo: un 404 —repo sin releases todavia, o
-    # privado y fuera del alcance del token— tiene que dejar pasar a los demas. Un repo que
-    # falla queda listado en `missing` y el consumidor lo muestra como "sin version remota",
-    # que es exactamente lo que pasa.
-    release_json="$(gh api "repos/${repo}/releases/latest" 2>/dev/null || true)"
+    # El stderr de `gh` NO se descarta: es lo unico que dice POR QUE fallo, y sin eso el log de
+    # esta corrida no sirve para diagnosticar nada. `set +e` alrededor porque el script corre con
+    # `set -e` y un repo que falla no tiene que cortar a los demas.
+    set +e
+    release_json="$(gh api "repos/${repo}/releases/latest" 2>"$ERR_FILE")"
+    set -e
+    gh_error="$(tr -d '\r' < "$ERR_FILE" | head -3 | tr '\n' ' ')"
 
     if [[ -z "$release_json" ]] || ! jq -e '.tag_name' <<<"$release_json" >/dev/null 2>&1; then
-        echo "  sin release accesible"
-        missing="$(jq --arg repo "$repo" '. + [$repo]' <<<"$missing")"
         failed=$((failed + 1))
+
+        # 404 es PERMANENTE y esperado: el repo no tiene releases todavia, o es privado y esta
+        # fuera del alcance del token. Cualquier otra cosa (5xx, rate limit, corte de red) es
+        # transitoria, y ahi se conserva la entrada del manifiesto anterior: un release viejo es
+        # mucho mas util que ninguno, y el proximo ciclo del cron lo corrige solo. Sin esta
+        # distincion, un hipo de la API publicaba un manifiesto sin ese producto y las apps lo
+        # mostraban como "todavia no tiene releases", que es un diagnostico falso.
+        if [[ "$gh_error" != *"HTTP 404"* ]] \
+            && jq -e --arg repo "$repo" '.[$repo]' <<<"$previous" >/dev/null 2>&1; then
+            echo "  fallo transitorio, se conserva la entrada anterior — $gh_error"
+            products="$(jq --arg repo "$repo" --argjson prev "$previous" \
+                '.[$repo] = $prev[$repo]' <<<"$products")"
+            continue
+        fi
+
+        echo "  sin release accesible — ${gh_error:-sin detalle}"
+        missing="$(jq --arg repo "$repo" '. + [$repo]' <<<"$missing")"
         continue
     fi
 
