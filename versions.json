@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-10T19:22:36Z",
+  "products": {
+    "legandrop/LGA_ToolPack-for_Nuke": {
+      "tag": "v2.60",
+      "publishedAt": "2026-08-06T15:40:35Z",
+      "assets": [
+        "LGA_ToolPack_v2.60.zip"
+      ]
+    },
+    "legandrop/LGA_ToolPack_B-for_Nuke": {
+      "tag": "v1.06",
+      "publishedAt": "2026-08-06T15:40:46Z",
+      "assets": [
+        "LGA_ToolPack-B_v1.06.zip"
+      ]
+    },
+    "legandrop/LGA_ToolPack_Layout-for_Nuke": {
+      "tag": "v2.60",
+      "publishedAt": "2026-08-06T15:40:58Z",
+      "assets": [
+        "LGA_ToolPack-Layout_v2.60.zip"
+      ]
+    },
+    "legandrop/LGA_NodePack": {
+      "tag": "v1.47",
+      "publishedAt": "2026-08-06T15:41:09Z",
+      "assets": [
+        "LGA_NodePack_v1.47.zip"
+      ]
+    },
+    "legandrop/LGA_HeiroTools": {
+      "tag": "v3.84",
+      "publishedAt": "2026-08-06T20:03:01Z",
+      "assets": [
+        "LGA_HeiroTools_v3.84_client.zip",
+        "LGA_HeiroTools_v3.84_studio.zip"
+      ]
+    },
+    "legandrop/LGA_OpenInNukeX": {
+      "tag": "v1.76",
+      "publishedAt": "2026-08-06T15:42:49Z",
+      "assets": [
+        "LGA_OpenInNukeX_v1.76_win.zip"
+      ]
+    },
+    "legandrop/LGA_PipeSync_Release": {
+      "tag": "v0.999",
+      "publishedAt": "2026-07-06T03:19:03Z",
+      "assets": [
+        "PipeSync_Mac_v0.999.dmg",
+        "PipeSync_Mac_v0.999.zip",
+        "PipeSync_Setup_v0.999.exe"
+      ]
+    },
+    "legandrop/LGA_FileManager_Release": {
+      "tag": "v0.907",
+      "publishedAt": "2026-08-04T20:36:16Z",
+      "assets": [
+        "FileManagerS3Client_Setup_v0.907.exe",
+        "FileManagerS3_Setup_v0.907.exe",
+        "LGA_FileManager_S3_Mac_v0.907.dmg",
+        "LGA_FileManager_S3_Mac_v0.907.zip"
+      ]
+    },
+    "legandrop/LGA_ShotPlayer_Release": {
+      "tag": "v0.048",
+      "publishedAt": "2026-08-09T14:42:16Z",
+      "assets": [
+        "LGA_Shot_Player_Mac_v0.048.dmg",
+        "LGA_Shot_Player_Mac_v0.048.zip",
+        "LGA_Shot_Player_Setup_v0.048.exe"
+      ]
+    }
+  },
+  "missing": [
+    "legandrop/LGA_MediaTools_Release"
+  ]
+}
