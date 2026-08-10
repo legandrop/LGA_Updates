@@ -1,0 +1,35 @@
+{
+    "_comment": [
+        "Repos de RELEASE que se publican en el manifiesto. Uno por producto.",
+        "",
+        "Agregar un producto es agregar su slug a esta lista y nada mas: el workflow",
+        "lo levanta en la proxima corrida. El consumidor (el card de LGA Updates de",
+        "PipeSync) busca por este mismo slug, asi que tiene que coincidir EXACTO con",
+        "lo que declara su catalogo en src/services/updates/UpdateCatalog.cpp.",
+        "",
+        "Van los repos de RELEASE, no los de codigo. Varios productos tienen el codigo",
+        "en un repo privado y publican en uno publico aparte (FileManager S3, Shot",
+        "Player, PipeSync, Media Tools): aca va el publico, que es donde viven los",
+        "assets y de donde los baja el usuario.",
+        "",
+        "Todos tienen que ser PUBLICOS. El workflow corre con el token que GitHub le",
+        "da solo, que puede leer repos publicos de cualquier lado pero NO privados: un",
+        "repo privado en esta lista queda como 'missing' en el manifiesto, en silencio",
+        "salvo por el log del workflow. Para sumar uno privado hay que darle al",
+        "workflow un PAT propio como secret.",
+        "",
+        "Un repo sin ningun release todavia tampoco rompe nada: cae en 'missing'."
+    ],
+    "repos": [
+        "legandrop/LGA_ToolPack-for_Nuke",
+        "legandrop/LGA_ToolPack_B-for_Nuke",
+        "legandrop/LGA_ToolPack_Layout-for_Nuke",
+        "legandrop/LGA_NodePack",
+        "legandrop/LGA_HeiroTools",
+        "legandrop/LGA_OpenInNukeX",
+        "legandrop/LGA_PipeSync_Release",
+        "legandrop/LGA_FileManager_Release",
+        "legandrop/LGA_ShotPlayer_Release",
+        "legandrop/LGA_MediaTools_Release"
+    ]
+}

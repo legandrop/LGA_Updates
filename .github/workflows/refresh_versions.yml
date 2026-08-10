@@ -1,0 +1,65 @@
+name: Refresh versions manifest
+
+# Cada 30 minutos regenera versions.json contra los repos de release de repos.json.
+#
+# Por que un cron aca y no un disparo desde cada repo de release: disparar desde cada uno
+# obligaria a agregarle un workflow a los diez repos y a que ninguno se lo olvide nunca.
+# Dado vuelta, los repos de release no se enteran de que esto existe y sumar un producto es
+# editar un solo archivo en un solo lugar.
+#
+# OJO — GitHub apaga los workflows programados despues de 60 dias sin actividad en el repo,
+# y avisa por mail al owner. Si el manifiesto deja de actualizarse, mirar primero si el cron
+# sigue habilitado en la pestana Actions; se reactiva con un click o corriendo este workflow
+# a mano desde "Run workflow".
+
+on:
+  schedule:
+    # Cada 30 min. GitHub no garantiza puntualidad en los crons y puede demorar varios
+    # minutos con la cola cargada: la ventana real de propagacion de un release nuevo es de
+    # ~30-45 min, mas el cache del CDN de Pages.
+    - cron: '*/30 * * * *'
+  # Para publicar un release sin esperar al cron.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Dos corridas pisandose escribirian el mismo archivo y una de las dos perderia el push.
+concurrency:
+  group: refresh-versions
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generar versions.json
+        env:
+          # El token que GitHub le da al workflow. Alcanza para leer los releases de repos
+          # PUBLICOS de cualquier owner; no llega a los privados, y eso es a proposito: asi
+          # este workflow no necesita ningun secret cargado a mano.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x build_manifest.sh
+          ./build_manifest.sh
+
+      - name: Commitear si cambio
+        run: |
+          # Se compara ignorando `generatedAt`: ese campo cambia en CADA corrida, y commitear
+          # por el solo dejaria 48 commits por dia sin ninguna informacion adentro.
+          if [ -f versions.json ] && git show HEAD:versions.json > /tmp/prev.json 2>/dev/null; then
+            if diff -q \
+              <(jq -S 'del(.generatedAt)' /tmp/prev.json) \
+              <(jq -S 'del(.generatedAt)' versions.json) > /dev/null; then
+              echo "Sin cambios de version. No se commitea."
+              exit 0
+            fi
+          fi
+          git config user.name "legandrop"
+          git config user.email "176236735+legandrop@users.noreply.github.com"
+          git add versions.json
+          git commit -m "Versions - Actualizacion automatica del manifiesto"
+          git push
