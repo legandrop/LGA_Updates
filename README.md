@@ -94,8 +94,12 @@ error del script, `gh` sin permisos, Pages caido), el latido tambien se corta y 
 
 La causa mas probable sigue siendo que **GitHub apaga los workflows programados despues de 60
 dias sin actividad en el repo**, avisando por mail al owner. Revisar la pestana Actions: si el
-cron esta deshabilitado, se reactiva con un click. El latido diario ayuda tambien aca, porque
-mantiene el repo con actividad.
+cron esta deshabilitado, se reactiva con un click.
+
+**No confiar en el latido diario para evitar ese corte.** Los commits pusheados con el
+`GITHUB_TOKEN` de Actions se reportan ampliamente como NO contabilizados para el contador de
+inactividad —por eso quien busca ese efecto usa un PAT—, y no esta verificado. Lo que si funciona
+es la deteccion: el aviso de la app salta igual, sin importar por que se corto el latido.
 
 Al diagnosticar, mirar **`checkedAt`** y no `generatedAt`: el segundo es cuando cambio alguna
 version por ultima vez, asi que un manifiesto que no cambia hace meses puede estar sano si no

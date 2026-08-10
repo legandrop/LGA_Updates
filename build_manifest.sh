@@ -50,7 +50,16 @@ for repo in "${REPOS[@]}"; do
     set +e
     release_json="$(gh api "repos/${repo}/releases/latest" 2>"$ERR_FILE")"
     set -e
-    gh_error="$(tr -d '\r' < "$ERR_FILE" | head -3 | tr '\n' ' ')"
+    # El `|| true` es una red, no un fix de algo observado. Con `set -euo pipefail`, si `gh`
+    # escribiera en stderr mas de lo que entra en el buffer del pipe, `head -3` podria cerrarlo
+    # apenas junta sus tres lineas y dejar al `tr` de arriba muriendo por SIGPIPE, que `pipefail`
+    # convertiria en la muerte del script entero — matando justo a la linea que existe para
+    # diagnosticar el error, y llevandose puesto el latido de esa corrida.
+    #
+    # No se pudo reproducir (probado hasta 10 MB de stderr), y en la practica `gh` escribe unos
+    # cientos de bytes. Pero el modo de falla es plausible, el costo de cubrirlo es cero, y lo que
+    # estaria en juego es que el manifiesto deje de actualizarse en silencio.
+    gh_error="$(tr -d '\r' < "$ERR_FILE" | head -3 | tr '\n' ' ' || true)"
 
     if [[ -z "$release_json" ]] || ! jq -e '.tag_name' <<<"$release_json" >/dev/null 2>&1; then
         failed=$((failed + 1))

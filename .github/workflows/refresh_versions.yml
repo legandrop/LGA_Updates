@@ -56,8 +56,12 @@ jobs:
           #     tendrian con que avisar. Se refresca a lo sumo una vez por dia — hacerlo en cada
           #     corrida dejaria 48 commits diarios sin ninguna informacion adentro.
           #
-          # De paso, ese commit diario es actividad en el repo, que es lo que mira GitHub para
-          # decidir si apaga un workflow programado por inactividad.
+          # OJO: el commit diario NO se puede dar por bueno como forma de mantener vivo el cron.
+          # GitHub apaga los workflows programados tras 60 dias de inactividad en el repo, pero
+          # los commits pusheados con el `GITHUB_TOKEN` se reportan ampliamente como NO
+          # contabilizados para ese corte —de ahi que se use un PAT cuando se quiere ese efecto—.
+          # Sin verificar, asi que el backstop de verdad es el aviso del lado de la app, que
+          # detecta el latido frio sin importar por que se corto.
           COMMIT_MSG="Versions - Actualizacion automatica del manifiesto"
           if [ -f versions.json ] && git show HEAD:versions.json > /tmp/prev.json 2>/dev/null; then
             CONTENT_CHANGED=1
@@ -76,6 +80,11 @@ jobs:
               # hasta cruzar el limite y saltear una jornada entera.
               if [ "$PREV_EPOCH" -gt 0 ] && [ "$((NOW_EPOCH - PREV_EPOCH))" -lt 72000 ]; then
                 HEARTBEAT_DUE=0
+              elif [ "$PREV_EPOCH" -eq 0 ]; then
+                # Si la fecha publicada no parsea, el latido queda "vencido" en TODAS las
+                # corridas: 48 commits por dia. No es silencioso, pero sin este aviso habria que
+                # deducirlo del historial. Se loguea para que se vea en la corrida misma.
+                echo "AVISO: no se pudo parsear el checkedAt publicado ('$PREV_CHECKED'). Se va a commitear en cada corrida hasta que se arregle."
               fi
             fi
 
