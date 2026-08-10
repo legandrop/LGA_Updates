@@ -33,6 +33,7 @@ las apps pasaron de ~9 requests por arranque a **1**.
 ```json
 {
     "schemaVersion": 1,
+    "checkedAt": "2026-08-10T18:00:00Z",
     "generatedAt": "2026-08-10T18:00:00Z",
     "products": {
         "legandrop/LGA_ToolPack-for_Nuke": {
@@ -51,6 +52,11 @@ las apps pasaron de ~9 requests por arranque a **1**.
 }
 ```
 
+- **`checkedAt` es el LATIDO**: cuando corrio el workflow, cambie o no algo. Se refresca al menos
+  una vez por dia. **`generatedAt` es otra cosa**: cuando cambio por ultima vez alguna version, y
+  se preserva mientras nada se mueva. Los dos hacen falta: sin `checkedAt`, "hace 30 dias que no
+  sacas un release" (sano) y "hace 30 dias que esto no corre" (roto) son indistinguibles, y es
+  exactamente lo que las apps miran para avisar.
 - La clave de cada producto es el **slug del repo de release**, y tiene que coincidir exacto con
   el `repoSlug` que declara el catalogo de PipeSync.
 - La URL de descarga no se guarda porque es derivable
@@ -79,13 +85,21 @@ entrada del catalogo tiene que declarar el mismo slug.
 
 ## Si el manifiesto deja de actualizarse
 
-**GitHub apaga los workflows programados despues de 60 dias sin actividad en el repo** y le
-avisa por mail al owner. Es la falla mas probable de todo esto. Revisar la pestana Actions: si
-el cron esta deshabilitado, se reactiva con un click.
+**PipeSync avisa solo.** Si el `checkedAt` publicado tiene mas de 30 dias, el card de LGA Updates
+lo dice —al usuario con rol Master, que es el unico que puede arreglarlo— y ademas muestra un
+aviso al arrancar, una vez por dia. No hace falta acordarse de mirar nada.
 
-El campo `generatedAt` dice cuando fue la ultima corrida que **cambio** algo, no la ultima
-corrida: un manifiesto que no cambia hace meses puede estar perfectamente sano si no hubo
-releases nuevos.
+Ese aviso NO cubre solo el cron apagado: si el workflow se rompe por cualquier otra cosa (un
+error del script, `gh` sin permisos, Pages caido), el latido tambien se corta y se detecta igual.
+
+La causa mas probable sigue siendo que **GitHub apaga los workflows programados despues de 60
+dias sin actividad en el repo**, avisando por mail al owner. Revisar la pestana Actions: si el
+cron esta deshabilitado, se reactiva con un click. El latido diario ayuda tambien aca, porque
+mantiene el repo con actividad.
+
+Al diagnosticar, mirar **`checkedAt`** y no `generatedAt`: el segundo es cuando cambio alguna
+version por ultima vez, asi que un manifiesto que no cambia hace meses puede estar sano si no
+hubo releases nuevos.
 
 ## Quien lo consume
 

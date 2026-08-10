@@ -108,12 +108,33 @@ if [[ $failed -eq ${#REPOS[@]} ]]; then
     exit 1
 fi
 
+# `generatedAt` es cuando cambio el CONTENIDO por ultima vez, asi que se preserva del manifiesto
+# anterior mientras ninguna version se mueva. Si se pisara en cada corrida, seria indistinguible
+# de `checkedAt` y no habria forma de saber hace cuanto que no sale una version nueva.
+now="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+generated="$now"
+if [[ -f "$OUT_FILE" ]]; then
+    prev_generated="$(jq -r '.generatedAt // ""' "$OUT_FILE" 2>/dev/null || echo "")"
+    prev_content="$(jq -S -c '{products, missing}' "$OUT_FILE" 2>/dev/null || echo '{}')"
+    new_content="$(jq -S -c -n --argjson p "$products" --argjson m "$missing" \
+        '{products: $p, missing: $m}')"
+    if [[ -n "$prev_generated" && "$prev_content" == "$new_content" ]]; then
+        generated="$prev_generated"
+    fi
+fi
+
+# `checkedAt` es el LATIDO: cuando corrio el workflow, cambie o no algo. Es lo unico que permite
+# distinguir "hace 30 dias que no sacas un release" (sano) de "hace 30 dias que esto no corre"
+# (roto), y las apps avisan cuando se enfria. El workflow lo publica al menos una vez por dia
+# aunque no haya novedades — ver el step de commit.
 jq -n \
     --argjson products "$products" \
     --argjson missing "$missing" \
-    --arg generated "$(date -u +%Y-%m-%dT%H:%M:%SZ)" \
+    --arg generated "$generated" \
+    --arg checked "$now" \
     '{
         schemaVersion: 1,
+        checkedAt: $checked,
         generatedAt: $generated,
         products: $products,
         missing: $missing
