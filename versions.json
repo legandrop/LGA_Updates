@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-11T22:02:03Z",
-  "generatedAt": "2026-08-11T22:02:03Z",
+  "checkedAt": "2026-08-11T22:44:59Z",
+  "generatedAt": "2026-08-11T22:44:59Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.61",
@@ -110,6 +110,16 @@
       "tag": "v0.051",
       "publishedAt": "2026-08-11T01:14:20Z",
       "assets": [
+        {
+          "name": "LGA_Shot_Player_Mac_v0.051.dmg",
+          "digest": "sha256:615518cc793e95ee6abdafa7bbb58b26bb0601760955477e78d7378ea35b53f9",
+          "size": 171083449
+        },
+        {
+          "name": "LGA_Shot_Player_Mac_v0.051.zip",
+          "digest": "sha256:573be7d2aed5b9fefe07b54f56a3b51a0029d0abe7053d3f22633294e38d0846",
+          "size": 197414481
+        },
         {
           "name": "LGA_Shot_Player_Setup_v0.051.exe",
           "digest": "sha256:9f949b76ef08f061e112ef982d033a3227093d67a1e0afda32f531eca11bc7e1",
