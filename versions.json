@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-11T21:48:51Z",
-  "generatedAt": "2026-08-11T21:48:51Z",
+  "checkedAt": "2026-08-11T21:49:14Z",
+  "generatedAt": "2026-08-11T21:49:14Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.61",
@@ -26,24 +26,24 @@
       ]
     },
     "legandrop/LGA_ToolPack_Layout-for_Nuke": {
-      "tag": "v2.60",
-      "publishedAt": "2026-08-06T15:40:58Z",
+      "tag": "v2.61",
+      "publishedAt": "2026-08-11T21:48:56Z",
       "assets": [
         {
-          "name": "LGA_ToolPack-Layout_v2.60.zip",
-          "digest": "sha256:cfababcd2ba6d15c53ccb5399df40effb5561776875a018bc7cf1b366a2dc1e6",
-          "size": 10895170
+          "name": "LGA_ToolPack-Layout_v2.61.zip",
+          "digest": "sha256:8ef447b57d921d61656c50881b48bfbb74cf42e4b11dc273f7975201385c41f2",
+          "size": 10977530
         }
       ]
     },
     "legandrop/LGA_NodePack": {
-      "tag": "v1.47",
-      "publishedAt": "2026-08-06T15:41:09Z",
+      "tag": "v1.48",
+      "publishedAt": "2026-08-11T21:49:08Z",
       "assets": [
         {
-          "name": "LGA_NodePack_v1.47.zip",
-          "digest": "sha256:c348e19b37c80c5e9ac0786c9ffe9dfe1f1e7696a3ea96a8cacd328f2ef406f3",
-          "size": 1206636
+          "name": "LGA_NodePack_v1.48.zip",
+          "digest": "sha256:056e52733dbffab57b17c2547864a1a0e3e4776f526a4f82443bed470d297696",
+          "size": 1285219
         }
       ]
     },
