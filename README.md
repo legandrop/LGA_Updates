@@ -77,6 +77,31 @@ las apps pasaron de ~9 requests por arranque a **1**.
   proposito**: cada consumidor lo valida y prefiere no leer nada antes que malinterpretar
   campos que cambiaron de significado. Agregar campos nuevos no requiere subirlo.
 
+## Cuando se publica una version nueva
+
+**Los instaladores disparan el refresco solos.** Al terminar de publicar un release, cada uno
+corre:
+
+```
+gh workflow run refresh_versions.yml --repo legandrop/LGA_Updates
+```
+
+Sin eso habria que esperar al cron —hasta 30 minutos— para que el card de PipeSync vea la version
+nueva. Falla en silencio a proposito: si el disparo no sale, la release ya esta publicada igual y
+el cron la levanta sola.
+
+Lo hacen los siete puntos que publican: `instalador.bat` de PipeSync, FileManager S3, Media Tools
+y el Shot Player; y del lado de macOS `github_release_mac.sh` de PipeSync y FileManager S3, mas
+`deploy_player.sh` del Shot Player.
+
+**Las tools de Nuke (ToolPack, NodePack, HieroTools, OpenInNukeX) todavia NO lo hacen**: se
+publican desde `../LGA_Release`, que no se toco. Para esas hay que esperar al cron o correr el
+workflow a mano.
+
+Despues del disparo, el manifiesto tarda ~1 minuto en estar servido: lo que corre el workflow
+(~15 s) mas la publicacion de Pages. **El `Cache-Control: max-age=600` de Pages no agrega
+demora**, porque Pages purga su cache al publicar.
+
 ## Agregar un producto
 
 Agregar su repo de release a `repos.json` y correr el workflow a mano (pestana **Actions** →
