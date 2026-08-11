@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-11T21:49:14Z",
-  "generatedAt": "2026-08-11T21:49:14Z",
+  "checkedAt": "2026-08-11T21:51:16Z",
+  "generatedAt": "2026-08-11T21:51:16Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.61",
@@ -48,18 +48,18 @@
       ]
     },
     "legandrop/LGA_HeiroTools": {
-      "tag": "v3.84",
-      "publishedAt": "2026-08-06T20:03:01Z",
+      "tag": "v3.85",
+      "publishedAt": "2026-08-11T21:51:01Z",
       "assets": [
         {
-          "name": "LGA_HeiroTools_v3.84_client.zip",
-          "digest": "sha256:7b600e6b9450cb30f469713b75e28f1fbcaf001a4509540d2f1901f57ed1f3c0",
-          "size": 456417897
+          "name": "LGA_HeiroTools_v3.85_client.zip",
+          "digest": "sha256:6cdc18971f719d2f9234e1679fe3db2ab0b799a919ba6ebf44ab45153571858e",
+          "size": 456488008
         },
         {
-          "name": "LGA_HeiroTools_v3.84_studio.zip",
-          "digest": "sha256:497fb55a93f632d6fff43bd8bfda82335a512ce0f8912a923a7695ff0b6328b8",
-          "size": 456417897
+          "name": "LGA_HeiroTools_v3.85_studio.zip",
+          "digest": "sha256:c57e9f7e0feccd5e1a8516f06f99e4ba0c28ebf35df13e6681c7d8dddeeff190",
+          "size": 456488008
         }
       ]
     },
