@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-13T00:58:23Z",
-  "generatedAt": "2026-08-13T00:58:23Z",
+  "checkedAt": "2026-08-13T12:56:05Z",
+  "generatedAt": "2026-08-13T12:56:05Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.61",
@@ -118,6 +118,16 @@
           "name": "FileManagerS3_Setup_v0.909.exe",
           "digest": "sha256:1adb968f6a678db400991026d279737d90eae42aff5b368cb87300d1969f01bc",
           "size": 196941048
+        },
+        {
+          "name": "LGA_FileManager_S3_Mac_v0.909.dmg",
+          "digest": "sha256:ded3912c9abf38bf02688215c17de4f6fbf160f93d094f10d9b60e9cfce5772a",
+          "size": 150708680
+        },
+        {
+          "name": "LGA_FileManager_S3_Mac_v0.909.zip",
+          "digest": "sha256:6c21d134f9db8229e065205fcd29c6a95aacc941cd0a1fa953bb1068ff4645f1",
+          "size": 168481111
         }
       ]
     },
