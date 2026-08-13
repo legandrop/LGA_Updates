@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-13T15:15:54Z",
-  "generatedAt": "2026-08-13T15:15:54Z",
+  "checkedAt": "2026-08-13T15:16:26Z",
+  "generatedAt": "2026-08-13T15:16:26Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.62",
@@ -26,13 +26,13 @@
       ]
     },
     "legandrop/LGA_ToolPack_Layout-for_Nuke": {
-      "tag": "v2.61",
-      "publishedAt": "2026-08-11T21:48:56Z",
+      "tag": "v2.62",
+      "publishedAt": "2026-08-13T15:16:14Z",
       "assets": [
         {
-          "name": "LGA_ToolPack-Layout_v2.61.zip",
-          "digest": "sha256:8ef447b57d921d61656c50881b48bfbb74cf42e4b11dc273f7975201385c41f2",
-          "size": 10977530
+          "name": "LGA_ToolPack-Layout_v2.62.zip",
+          "digest": "sha256:2a77d336dc38cabb6816bd3085555b36bd13a13fbdb9aa200342d4b3bc2a7e10",
+          "size": 11043174
         }
       ]
     },
