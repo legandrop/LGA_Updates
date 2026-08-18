@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-18T15:33:36Z",
-  "generatedAt": "2026-08-14T09:43:36Z",
+  "checkedAt": "2026-08-18T19:23:15Z",
+  "generatedAt": "2026-08-18T19:23:15Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.62",
@@ -111,38 +111,13 @@
       ]
     },
     "legandrop/LGA_FileManager_Release": {
-      "tag": "v0.909",
-      "publishedAt": "2026-08-12T20:53:51Z",
+      "tag": "v0.910",
+      "publishedAt": "2026-08-18T19:23:02Z",
       "assets": [
         {
-          "name": "FileManagerS3Client_Setup_v0.909.exe",
-          "digest": "sha256:b7754c7a8dd460f3daefff1e7da6dc4498c7849adf7d3baf222ef6058febfcbb",
-          "size": 196933007
-        },
-        {
-          "name": "FileManagerS3_Setup_v0.909.exe",
-          "digest": "sha256:1adb968f6a678db400991026d279737d90eae42aff5b368cb87300d1969f01bc",
-          "size": 196941048
-        },
-        {
-          "name": "LGA_FileManager_S3Client_Mac_v0.909.dmg",
-          "digest": "sha256:a0a1925b2957b12d9793c3a7d51a819f9d3964290d7246ec75def4f3198111a0",
-          "size": 148464228
-        },
-        {
-          "name": "LGA_FileManager_S3Client_Mac_v0.909.zip",
-          "digest": "sha256:3f7483083b77992d6b4c64f28b3f9075237dc67893a1e9b27411dcf79b195989",
-          "size": 166334331
-        },
-        {
-          "name": "LGA_FileManager_S3_Mac_v0.909.dmg",
-          "digest": "sha256:ded3912c9abf38bf02688215c17de4f6fbf160f93d094f10d9b60e9cfce5772a",
-          "size": 150708680
-        },
-        {
-          "name": "LGA_FileManager_S3_Mac_v0.909.zip",
-          "digest": "sha256:6c21d134f9db8229e065205fcd29c6a95aacc941cd0a1fa953bb1068ff4645f1",
-          "size": 168481111
+          "name": "FileManagerS3_Setup_v0.910.exe",
+          "digest": "sha256:05eb6d450d4f296114435876ca32c1dffe123b36dadd896f6d525b80ccd69ae6",
+          "size": 197052196
         }
       ]
     },
