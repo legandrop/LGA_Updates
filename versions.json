@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-18T19:25:07Z",
-  "generatedAt": "2026-08-18T19:25:07Z",
+  "checkedAt": "2026-08-18T19:49:11Z",
+  "generatedAt": "2026-08-18T19:49:11Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.62",
@@ -85,28 +85,13 @@
       ]
     },
     "legandrop/LGA_PipeSync_Release": {
-      "tag": "v1.001",
-      "publishedAt": "2026-08-13T17:49:03Z",
+      "tag": "v1.002",
+      "publishedAt": "2026-08-18T19:49:01Z",
       "assets": [
         {
-          "name": "LGA_PipeSync_Mac_v1.001.dmg",
-          "digest": "sha256:242e1825c4c161b9c82a21c4c1955c53e4907a441c4fef13bbbed50aac01b577",
-          "size": 166398539
-        },
-        {
-          "name": "LGA_PipeSync_Mac_v1.001.zip",
-          "digest": "sha256:cf67f5e036fb0d58a801d7605a593ab6a964fdc69ac59eaf91fbbc692d0fbc08",
-          "size": 185691891
-        },
-        {
-          "name": "PipeSync_Client_Setup_v1.001.exe",
-          "digest": "sha256:71dd2ea99646e74f06ef31147b7bf95181c09d5530ffea7b0bf9cc3353c976be",
-          "size": 274741662
-        },
-        {
-          "name": "PipeSync_Setup_v1.001.exe",
-          "digest": "sha256:73af1befdfeceeb8999d70879965332f57337c609a4c28a151ff6d139196e39c",
-          "size": 274721708
+          "name": "PipeSync_Setup_v1.002.exe",
+          "digest": "sha256:eb4c69db50ea96765d3e7b28cc65c2d04028d22681191980d4dc2bba0185b3ef",
+          "size": 275103776
         }
       ]
     },
