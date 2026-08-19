@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-19T19:45:00Z",
-  "generatedAt": "2026-08-19T19:45:00Z",
+  "checkedAt": "2026-08-19T22:37:52Z",
+  "generatedAt": "2026-08-19T22:37:52Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.62",
@@ -64,23 +64,13 @@
       ]
     },
     "legandrop/LGA_OpenInNukeX": {
-      "tag": "v1.79",
-      "publishedAt": "2026-08-12T17:21:14Z",
+      "tag": "v1.81",
+      "publishedAt": "2026-08-19T22:37:43Z",
       "assets": [
         {
-          "name": "LGA_OpenInNukeX_v1.79_mac.dmg",
-          "digest": "sha256:3e63ea0b463f781e90aedfc4393ce5a8e379d0b742fd12db8855c7f917516112",
-          "size": 38667121
-        },
-        {
-          "name": "LGA_OpenInNukeX_v1.79_mac.zip",
-          "digest": "sha256:628d4caaf0e2ab8ff6e5ef44dda398facc0d973c305b8b8e7cb2bbdbd98a2540",
-          "size": 41491392
-        },
-        {
-          "name": "LGA_OpenInNukeX_v1.79_win.zip",
-          "digest": "sha256:f974f6fc02d84ddcd7dd2737a242bf9b0e8e7b127d98c3fce2edb9ed329fd31e",
-          "size": 18082636
+          "name": "LGA_OpenInNukeX_v1.81_win.zip",
+          "digest": "sha256:652bc9bc7196582e65d5394424c5fc021aa8e4074d2f9afed1e7b5116aaab6c8",
+          "size": 18088184
         }
       ]
     },
