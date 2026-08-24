@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-24T22:08:51Z",
-  "generatedAt": "2026-08-24T22:08:51Z",
+  "checkedAt": "2026-08-24T22:15:52Z",
+  "generatedAt": "2026-08-24T22:15:52Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.62",
@@ -356,22 +356,22 @@
       ]
     },
     "legandrop/LGA_MediaTools_Release": {
-      "tag": "v0.523",
-      "publishedAt": "2026-08-19T01:52:18Z",
+      "tag": "v0.552",
+      "publishedAt": "2026-08-24T22:15:36Z",
       "assets": [
         {
-          "name": "LGA_MediaTools_Setup_v0.523.exe",
-          "digest": "sha256:03f0575b6f1c3de790f8f99aed6fe11122e73c39ecbe7ee620d801a34d511749",
-          "size": 456270593
+          "name": "LGA_MediaTools_Setup_v0.552.exe",
+          "digest": "sha256:f45b9cd8340e674553e5c1a16aafc5e5df5bd4892797e6a2d81c9f85c97197f4",
+          "size": 456794110
         }
       ],
       "assetLatest": [
         {
-          "tag": "v0.523",
-          "publishedAt": "2026-08-19T01:52:18Z",
-          "name": "LGA_MediaTools_Setup_v0.523.exe",
-          "digest": "sha256:03f0575b6f1c3de790f8f99aed6fe11122e73c39ecbe7ee620d801a34d511749",
-          "size": 456270593
+          "tag": "v0.552",
+          "publishedAt": "2026-08-24T22:15:36Z",
+          "name": "LGA_MediaTools_Setup_v0.552.exe",
+          "digest": "sha256:f45b9cd8340e674553e5c1a16aafc5e5df5bd4892797e6a2d81c9f85c97197f4",
+          "size": 456794110
         }
       ]
     }
