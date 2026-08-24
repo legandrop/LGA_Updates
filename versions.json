@@ -1,13 +1,22 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-24T07:02:25Z",
-  "generatedAt": "2026-08-21T18:10:34Z",
+  "checkedAt": "2026-08-24T15:51:25Z",
+  "generatedAt": "2026-08-24T15:51:25Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.62",
       "publishedAt": "2026-08-13T15:15:10Z",
       "assets": [
         {
+          "name": "LGA_ToolPack_v2.62.zip",
+          "digest": "sha256:a2234630d7ed756467ec351e1bfcf8b4059aa90afce8c721b76806a76025e769",
+          "size": 4777929
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v2.62",
+          "publishedAt": "2026-08-13T15:15:10Z",
           "name": "LGA_ToolPack_v2.62.zip",
           "digest": "sha256:a2234630d7ed756467ec351e1bfcf8b4059aa90afce8c721b76806a76025e769",
           "size": 4777929
@@ -23,6 +32,15 @@
           "digest": "sha256:e81de89db928d53c11c59479557b2121c9d9303dd1e817faf51f5c5c8674f7a9",
           "size": 3553146
         }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v1.08",
+          "publishedAt": "2026-08-13T15:15:42Z",
+          "name": "LGA_ToolPack-B_v1.08.zip",
+          "digest": "sha256:e81de89db928d53c11c59479557b2121c9d9303dd1e817faf51f5c5c8674f7a9",
+          "size": 3553146
+        }
       ]
     },
     "legandrop/LGA_ToolPack_Layout-for_Nuke": {
@@ -34,6 +52,15 @@
           "digest": "sha256:2a77d336dc38cabb6816bd3085555b36bd13a13fbdb9aa200342d4b3bc2a7e10",
           "size": 11043174
         }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v2.62",
+          "publishedAt": "2026-08-13T15:16:14Z",
+          "name": "LGA_ToolPack-Layout_v2.62.zip",
+          "digest": "sha256:2a77d336dc38cabb6816bd3085555b36bd13a13fbdb9aa200342d4b3bc2a7e10",
+          "size": 11043174
+        }
       ]
     },
     "legandrop/LGA_NodePack": {
@@ -41,6 +68,15 @@
       "publishedAt": "2026-08-11T21:49:08Z",
       "assets": [
         {
+          "name": "LGA_NodePack_v1.48.zip",
+          "digest": "sha256:056e52733dbffab57b17c2547864a1a0e3e4776f526a4f82443bed470d297696",
+          "size": 1285219
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v1.48",
+          "publishedAt": "2026-08-11T21:49:08Z",
           "name": "LGA_NodePack_v1.48.zip",
           "digest": "sha256:056e52733dbffab57b17c2547864a1a0e3e4776f526a4f82443bed470d297696",
           "size": 1285219
@@ -61,6 +97,29 @@
           "digest": "sha256:876827b7869a9a87e04d7c849882ad3ef7ec0ebd5a3ebcf071e56383c70accb2",
           "size": 456498518
         }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v3.80",
+          "publishedAt": "2026-07-29T18:09:08Z",
+          "name": "LGA_HeiroTools_v3.80_gh.zip",
+          "digest": "sha256:6151c4aa834c461992bc7230cb4847f759a3d10f03aa652e45ab8833c181ad70",
+          "size": 598741267
+        },
+        {
+          "tag": "v3.86",
+          "publishedAt": "2026-08-13T14:44:44Z",
+          "name": "LGA_HeiroTools_v3.86_client.zip",
+          "digest": "sha256:e717eb3153497d94a11f95a268840243d3e12861a5ece6301761d549e342ab15",
+          "size": 456498518
+        },
+        {
+          "tag": "v3.86",
+          "publishedAt": "2026-08-13T14:44:44Z",
+          "name": "LGA_HeiroTools_v3.86_studio.zip",
+          "digest": "sha256:876827b7869a9a87e04d7c849882ad3ef7ec0ebd5a3ebcf071e56383c70accb2",
+          "size": 456498518
+        }
       ]
     },
     "legandrop/LGA_OpenInNukeX": {
@@ -68,6 +127,29 @@
       "publishedAt": "2026-08-20T00:22:32Z",
       "assets": [
         {
+          "name": "LGA_OpenInNukeX_v1.83_win.zip",
+          "digest": "sha256:cbfa7fd5a43ba03d94d67a0886e9a93faa48c4f39ad128ae242342cd3f9da18d",
+          "size": 18161860
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v1.79",
+          "publishedAt": "2026-08-12T17:21:14Z",
+          "name": "LGA_OpenInNukeX_v1.79_mac.dmg",
+          "digest": "sha256:3e63ea0b463f781e90aedfc4393ce5a8e379d0b742fd12db8855c7f917516112",
+          "size": 38667121
+        },
+        {
+          "tag": "v1.79",
+          "publishedAt": "2026-08-12T17:21:14Z",
+          "name": "LGA_OpenInNukeX_v1.79_mac.zip",
+          "digest": "sha256:628d4caaf0e2ab8ff6e5ef44dda398facc0d973c305b8b8e7cb2bbdbd98a2540",
+          "size": 41491392
+        },
+        {
+          "tag": "v1.83",
+          "publishedAt": "2026-08-20T00:22:32Z",
           "name": "LGA_OpenInNukeX_v1.83_win.zip",
           "digest": "sha256:cbfa7fd5a43ba03d94d67a0886e9a93faa48c4f39ad128ae242342cd3f9da18d",
           "size": 18161860
@@ -98,6 +180,50 @@
           "digest": "sha256:528d886e7296b16e09b9250dd5792e6c27c7049637fb5249cbb5a11710beae6b",
           "size": 275135800
         }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v1.003",
+          "publishedAt": "2026-08-19T19:39:09Z",
+          "name": "LGA_PipeSync_Mac_v1.003.dmg",
+          "digest": "sha256:f8401e1545720dca9ee697135750a2527ffcd87d9943072339dedec555746f3d",
+          "size": 166971246
+        },
+        {
+          "tag": "v1.003",
+          "publishedAt": "2026-08-19T19:39:09Z",
+          "name": "LGA_PipeSync_Mac_v1.003.zip",
+          "digest": "sha256:89ee6412cdf50dee5f055302c1a682cf5c4916c68e68d008c116a1e78f02f14f",
+          "size": 186259675
+        },
+        {
+          "tag": "v1.003",
+          "publishedAt": "2026-08-19T19:39:09Z",
+          "name": "PipeSync_Client_Setup_v1.003.exe",
+          "digest": "sha256:6fe4777684ea07f6b4f0bfe69d835cb8a04e438a33441e310faabe8e64118467",
+          "size": 275155825
+        },
+        {
+          "tag": "v0.999",
+          "publishedAt": "2026-07-06T03:19:03Z",
+          "name": "PipeSync_Mac_v0.999.dmg",
+          "digest": "sha256:923a5ccbf7a02e478ca3e0e43fbe47a5ab5073afa3c1a90d46d5124a683cd6ce",
+          "size": 201235143
+        },
+        {
+          "tag": "v0.999",
+          "publishedAt": "2026-07-06T03:19:03Z",
+          "name": "PipeSync_Mac_v0.999.zip",
+          "digest": "sha256:17121b970dc19ddb3a41ee10a3108e0b0b6c0219835e3e1f2800d719e73c29d4",
+          "size": 280738955
+        },
+        {
+          "tag": "v1.003",
+          "publishedAt": "2026-08-19T19:39:09Z",
+          "name": "PipeSync_Setup_v1.003.exe",
+          "digest": "sha256:528d886e7296b16e09b9250dd5792e6c27c7049637fb5249cbb5a11710beae6b",
+          "size": 275135800
+        }
       ]
     },
     "legandrop/LGA_FileManager_Release": {
@@ -114,6 +240,85 @@
           "digest": "sha256:05eb6d450d4f296114435876ca32c1dffe123b36dadd896f6d525b80ccd69ae6",
           "size": 197052196
         }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.910",
+          "publishedAt": "2026-08-18T19:23:02Z",
+          "name": "FileManagerS3Client_Setup_v0.910.exe",
+          "digest": "sha256:b3e7e5f4db74058776a31422be1cdeb853e18b2f29713e27ccf5363f77b379c9",
+          "size": 197040471
+        },
+        {
+          "tag": "v0.902",
+          "publishedAt": "2026-06-29T11:58:39Z",
+          "name": "FileManagerS3_Mac_v0.902.dmg",
+          "digest": "sha256:fa5c37f34e48505e188305dd93d22640f4eea210b1c806f882205abbe8def595",
+          "size": 189733540
+        },
+        {
+          "tag": "v0.902",
+          "publishedAt": "2026-06-29T11:58:39Z",
+          "name": "FileManagerS3_Mac_v0.902.zip",
+          "digest": "sha256:6d03bf548bb7d220de80bef83a0fe394395aae5dbe51a27511c34b0464128aad",
+          "size": 270275920
+        },
+        {
+          "tag": "v0.910",
+          "publishedAt": "2026-08-18T19:23:02Z",
+          "name": "FileManagerS3_Setup_v0.910.exe",
+          "digest": "sha256:05eb6d450d4f296114435876ca32c1dffe123b36dadd896f6d525b80ccd69ae6",
+          "size": 197052196
+        },
+        {
+          "tag": "v0.902",
+          "publishedAt": "2026-06-29T11:58:39Z",
+          "name": "FileManager_Mac_v0.902.dmg",
+          "digest": "sha256:bb46100bd6156ecd66abb8f952b90d89631f7f67e58ce0400a16de8e0de81016",
+          "size": 380026704
+        },
+        {
+          "tag": "v0.902",
+          "publishedAt": "2026-06-29T11:58:39Z",
+          "name": "FileManager_Mac_v0.902.zip",
+          "digest": "sha256:343d574146186932c8e36bd13ba1ccba70f6426f76b7d0d45537eacc0baacdbb",
+          "size": 540335718
+        },
+        {
+          "tag": "v0.906",
+          "publishedAt": "2026-07-29T18:07:52Z",
+          "name": "FileManager_Setup_v0.906.exe",
+          "digest": "sha256:ae48ad22343dbb05b8c7a75668e88b3d79b58bdb868618d5f08334e82c861cf4",
+          "size": 262476905
+        },
+        {
+          "tag": "v0.909",
+          "publishedAt": "2026-08-12T20:53:51Z",
+          "name": "LGA_FileManager_S3Client_Mac_v0.909.dmg",
+          "digest": "sha256:a0a1925b2957b12d9793c3a7d51a819f9d3964290d7246ec75def4f3198111a0",
+          "size": 148464228
+        },
+        {
+          "tag": "v0.909",
+          "publishedAt": "2026-08-12T20:53:51Z",
+          "name": "LGA_FileManager_S3Client_Mac_v0.909.zip",
+          "digest": "sha256:3f7483083b77992d6b4c64f28b3f9075237dc67893a1e9b27411dcf79b195989",
+          "size": 166334331
+        },
+        {
+          "tag": "v0.909",
+          "publishedAt": "2026-08-12T20:53:51Z",
+          "name": "LGA_FileManager_S3_Mac_v0.909.dmg",
+          "digest": "sha256:ded3912c9abf38bf02688215c17de4f6fbf160f93d094f10d9b60e9cfce5772a",
+          "size": 150708680
+        },
+        {
+          "tag": "v0.909",
+          "publishedAt": "2026-08-12T20:53:51Z",
+          "name": "LGA_FileManager_S3_Mac_v0.909.zip",
+          "digest": "sha256:6c21d134f9db8229e065205fcd29c6a95aacc941cd0a1fa953bb1068ff4645f1",
+          "size": 168481111
+        }
       ]
     },
     "legandrop/LGA_ShotPlayer_Release": {
@@ -125,6 +330,29 @@
           "digest": "sha256:6cff2c5588478ee9f6155cf9e447ed5869c17410f0780f0cbc10fc4eb5ad3860",
           "size": 143933264
         }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.055",
+          "publishedAt": "2026-08-20T10:01:05Z",
+          "name": "LGA_Shot_Player_Mac_v0.055.dmg",
+          "digest": "sha256:62c3b51ed6998d1b4aad0f255d4dee0ee25ff194e93daf62823de9424daf3103",
+          "size": 171076906
+        },
+        {
+          "tag": "v0.055",
+          "publishedAt": "2026-08-20T10:01:05Z",
+          "name": "LGA_Shot_Player_Mac_v0.055.zip",
+          "digest": "sha256:838063e305733027b6cf5af7180c33d43c5b1ebb68f20a00700c5de90db76bed",
+          "size": 197427774
+        },
+        {
+          "tag": "v0.093",
+          "publishedAt": "2026-08-21T18:10:20Z",
+          "name": "LGA_Shot_Player_Setup_v0.093.exe",
+          "digest": "sha256:6cff2c5588478ee9f6155cf9e447ed5869c17410f0780f0cbc10fc4eb5ad3860",
+          "size": 143933264
+        }
       ]
     },
     "legandrop/LGA_MediaTools_Release": {
@@ -132,6 +360,15 @@
       "publishedAt": "2026-08-19T01:52:18Z",
       "assets": [
         {
+          "name": "LGA_MediaTools_Setup_v0.523.exe",
+          "digest": "sha256:03f0575b6f1c3de790f8f99aed6fe11122e73c39ecbe7ee620d801a34d511749",
+          "size": 456270593
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.523",
+          "publishedAt": "2026-08-19T01:52:18Z",
           "name": "LGA_MediaTools_Setup_v0.523.exe",
           "digest": "sha256:03f0575b6f1c3de790f8f99aed6fe11122e73c39ecbe7ee620d801a34d511749",
           "size": 456270593
