@@ -100,12 +100,71 @@ for repo in "${REPOS[@]}"; do
 
     echo "  $tag ($(jq -r 'length' <<<"$assets") assets)"
 
+    # `assetLatest`: el asset MAS NUEVO de cada familia de artefacto, que no siempre vive en el
+    # ultimo release.
+    #
+    # Por que hace falta: `tag`/`assets` describen `releases/latest`, y ese release puede no
+    # traer artefacto para todas las plataformas. El Shot Player publico v0.065, v0.090 y v0.093
+    # solo para Windows, asi que un usuario de macOS quedaba CIEGO a la v0.055 —que si es suya—
+    # y su updater le decia que no habia instalable para su plataforma. Hoy le pasa lo mismo a
+    # OpenInNukeX y a FileManager. Lo que corresponde ver en cada plataforma es la ultima version
+    # QUE EXISTE PARA ELLA, sin importar si otra plataforma va mas adelante.
+    #
+    # Este script NO sabe que es "Windows" o "macOS", y no tiene por que: agrupa los assets por
+    # su nombre con la version borrada (`LGA_Shot_Player_Setup_v0.093.exe` y `..._v0.090.exe` son
+    # la misma familia) y se queda con el mas nuevo de cada una. Quien decide cual le toca es
+    # cada app, con el patron de asset que ya tiene.
+    #
+    # Es ADITIVO: `schemaVersion` no se mueve y quien solo lee `tag`/`assets` no se entera.
+    #
+    # Efecto lateral aceptado: una familia discontinuada sobrevive mientras siga dentro de los
+    # ultimos 100 releases (`LGA_HeiroTools_v3.80_gh.zip` es una). No molesta: cada app matchea
+    # por su propio patron, y si alguna pidiera justo esa, es porque es la suya.
+    set +e
+    releases_json="$(gh api "repos/${repo}/releases?per_page=100" 2>"$ERR_FILE")"
+    set -e
+    releases_error="$(tr -d '\r' < "$ERR_FILE" | head -3 | tr '\n' ' ' || true)"
+
+    asset_latest="null"
+    if [[ -n "$releases_json" ]] && jq -e 'type == "array"' <<<"$releases_json" >/dev/null 2>&1; then
+        # `sort_by` de jq es ESTABLE, asi que `group_by` conserva el orden por fecha descendente
+        # dentro de cada grupo y `.[0]` es efectivamente el mas nuevo. El `sort_by(.name)` final
+        # es para que el JSON salga determinista: sin el, un reordenamiento de la API se veria
+        # como un cambio de contenido y generaria un commit por nada.
+        asset_latest="$(jq -c '
+            [ .[] | select(.draft == false and .prerelease == false) ]
+            | sort_by(.published_at) | reverse
+            | [ .[] | . as $r | ($r.assets // [])[]
+                | { tag: $r.tag_name,
+                    publishedAt: ($r.published_at // ""),
+                    name: .name,
+                    digest: (.digest // ""),
+                    size: (.size // 0),
+                    key: (.name | gsub("v[0-9]+([.][0-9]+)*"; "*")) } ]
+            | group_by(.key) | map(.[0]) | map(del(.key)) | sort_by(.name)
+        ' <<<"$releases_json")"
+        echo "  assetLatest: $(jq -r 'length' <<<"$asset_latest") familias de asset"
+    else
+        # Mismo criterio que arriba con el release: antes que publicar el producto SIN este campo
+        # —lo que dejaria a las plataformas rezagadas viendo de nuevo solo el ultimo release— se
+        # conserva el del manifiesto anterior y el proximo ciclo del cron lo corrige.
+        previous_asset_latest="$(jq -c --arg repo "$repo" '.[$repo].assetLatest // empty' <<<"$previous")"
+        if [[ -n "$previous_asset_latest" ]]; then
+            asset_latest="$previous_asset_latest"
+            echo "  no se pudieron listar los releases, se conserva el assetLatest anterior — $releases_error"
+        else
+            echo "  no se pudieron listar los releases y no hay assetLatest anterior — ${releases_error:-sin detalle}"
+        fi
+    fi
+
     products="$(jq \
         --arg repo "$repo" \
         --arg tag "$tag" \
         --arg published "$published" \
         --argjson assets "$assets" \
-        '.[$repo] = {tag: $tag, publishedAt: $published, assets: $assets}' \
+        --argjson assetLatest "$asset_latest" \
+        '.[$repo] = ({tag: $tag, publishedAt: $published, assets: $assets}
+                     + (if $assetLatest == null then {} else {assetLatest: $assetLatest} end))' \
         <<<"$products")"
 done
 

@@ -45,6 +45,15 @@ las apps pasaron de ~9 requests por arranque a **1**.
                     "digest": "sha256:4d9a6e78...",
                     "size": 26310201
                 }
+            ],
+            "assetLatest": [
+                {
+                    "tag": "v2.60",
+                    "publishedAt": "2026-07-01T12:00:00Z",
+                    "name": "LGA_ToolPack_v2.60.zip",
+                    "digest": "sha256:4d9a6e78...",
+                    "size": 26310201
+                }
             ]
         }
     },
@@ -59,6 +68,15 @@ las apps pasaron de ~9 requests por arranque a **1**.
   exactamente lo que las apps miran para avisar.
 - La clave de cada producto es el **slug del repo de release**, y tiene que coincidir exacto con
   el `repoSlug` que declara el catalogo de PipeSync.
+- **`assetLatest` es el asset mas nuevo de CADA familia de artefacto**, y no siempre sale del
+  release de `tag`. Existe porque `releases/latest` puede no traer artefacto para todas las
+  plataformas: el Shot Player publico v0.065, v0.090 y v0.093 solo para Windows, asi que un
+  usuario de macOS quedaba ciego a la v0.055 —que si es suya— y su updater le decia que no habia
+  instalable. Lo que corresponde ver en cada plataforma es la ultima version **que existe para
+  ella**, sin importar si otra plataforma va mas adelante.
+  El manifiesto no sabe que es "Windows" o "macOS": agrupa por el nombre del asset con la version
+  borrada y se queda con el mas nuevo de cada grupo. Quien elige cual le toca es cada app, con el
+  patron de asset que ya tiene. Se mira dentro de los ultimos 100 releases del repo.
 - La URL de descarga no se guarda porque es derivable
   (`github.com/<repo>/releases/download/<tag>/<asset>`) y guardarla seria un segundo lugar donde
   el mismo dato puede quedar viejo.
