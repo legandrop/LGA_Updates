@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-08-29T14:13:31Z",
-  "generatedAt": "2026-08-27T14:30:53Z",
+  "checkedAt": "2026-08-30T13:10:03Z",
+  "generatedAt": "2026-08-30T13:10:03Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.63",
@@ -376,5 +376,7 @@
       ]
     }
   },
-  "missing": []
+  "missing": [
+    "legandrop/LGA_FolderSwitch"
+  ]
 }
