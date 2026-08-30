@@ -30,6 +30,7 @@
         "legandrop/LGA_PipeSync_Release",
         "legandrop/LGA_FileManager_Release",
         "legandrop/LGA_ShotPlayer_Release",
-        "legandrop/LGA_MediaTools_Release"
+        "legandrop/LGA_MediaTools_Release",
+        "legandrop/LGA_FolderSwitch"
     ]
 }
