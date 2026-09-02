@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-02T16:53:58Z",
-  "generatedAt": "2026-09-02T16:53:58Z",
+  "checkedAt": "2026-09-02T16:56:43Z",
+  "generatedAt": "2026-09-02T16:56:43Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.63",
@@ -312,13 +312,13 @@
       ]
     },
     "legandrop/LGA_ShotPlayer_Release": {
-      "tag": "v0.161",
-      "publishedAt": "2026-08-24T22:08:34Z",
+      "tag": "v0.185",
+      "publishedAt": "2026-09-02T16:56:28Z",
       "assets": [
         {
-          "name": "LGA_Shot_Player_Setup_v0.161.exe",
-          "digest": "sha256:f635493d37ba616cfa11e6fc37a72cd34cce538ef9a2004a9899ea514388d00f",
-          "size": 144081211
+          "name": "LGA_Shot_Player_Setup_v0.185.exe",
+          "digest": "sha256:1648a3ab194bf6549458b4aec2c4bcef1370a4ec35f8f483cbf776658ee249c8",
+          "size": 144181464
         }
       ],
       "assetLatest": [
@@ -337,11 +337,11 @@
           "size": 197427774
         },
         {
-          "tag": "v0.161",
-          "publishedAt": "2026-08-24T22:08:34Z",
-          "name": "LGA_Shot_Player_Setup_v0.161.exe",
-          "digest": "sha256:f635493d37ba616cfa11e6fc37a72cd34cce538ef9a2004a9899ea514388d00f",
-          "size": 144081211
+          "tag": "v0.185",
+          "publishedAt": "2026-09-02T16:56:28Z",
+          "name": "LGA_Shot_Player_Setup_v0.185.exe",
+          "digest": "sha256:1648a3ab194bf6549458b4aec2c4bcef1370a4ec35f8f483cbf776658ee249c8",
+          "size": 144181464
         }
       ]
     },
