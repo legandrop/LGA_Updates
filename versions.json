@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-01T20:30:33Z",
-  "generatedAt": "2026-09-01T20:30:33Z",
+  "checkedAt": "2026-09-02T13:17:59Z",
+  "generatedAt": "2026-09-02T13:17:59Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.63",
@@ -157,28 +157,13 @@
       ]
     },
     "legandrop/LGA_PipeSync_Release": {
-      "tag": "v1.006",
-      "publishedAt": "2026-08-26T23:44:50Z",
+      "tag": "v1.007",
+      "publishedAt": "2026-09-02T13:17:38Z",
       "assets": [
         {
-          "name": "LGA_PipeSync_Mac_v1.006.dmg",
-          "digest": "sha256:28c25a83f7f1a1715792cd26d17f6991746187c7f9d0c5ebf049c89e14a6a4ce",
-          "size": 167260593
-        },
-        {
-          "name": "LGA_PipeSync_Mac_v1.006.zip",
-          "digest": "sha256:3274788caef2effdec2258c4e96ea6eac69df7b887bb925497b0e26af012641a",
-          "size": 186673249
-        },
-        {
-          "name": "PipeSync_Client_Setup_v1.006.exe",
-          "digest": "sha256:d3ee60181228d7586334a0c5be33cdf17e388dc0b15985035bada5695af796b9",
-          "size": 275368250
-        },
-        {
-          "name": "PipeSync_Setup_v1.006.exe",
-          "digest": "sha256:eebe30a3133354befd185bb2dfa2055732c62556fcffe9b68b59b22efd1f6763",
-          "size": 275348245
+          "name": "PipeSync_Setup_v1.007.exe",
+          "digest": "sha256:6d9471e87ef90b01e13a3bbf3559eb7b22bccfb8ab15865b482b0336856878db",
+          "size": 275513669
         }
       ],
       "assetLatest": [
@@ -218,11 +203,11 @@
           "size": 280738955
         },
         {
-          "tag": "v1.006",
-          "publishedAt": "2026-08-26T23:44:50Z",
-          "name": "PipeSync_Setup_v1.006.exe",
-          "digest": "sha256:eebe30a3133354befd185bb2dfa2055732c62556fcffe9b68b59b22efd1f6763",
-          "size": 275348245
+          "tag": "v1.007",
+          "publishedAt": "2026-09-02T13:17:38Z",
+          "name": "PipeSync_Setup_v1.007.exe",
+          "digest": "sha256:6d9471e87ef90b01e13a3bbf3559eb7b22bccfb8ab15865b482b0336856878db",
+          "size": 275513669
         }
       ]
     },
