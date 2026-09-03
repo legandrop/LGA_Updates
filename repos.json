@@ -31,6 +31,7 @@
         "legandrop/LGA_FileManager_Release",
         "legandrop/LGA_ShotPlayer_Release",
         "legandrop/LGA_MediaTools_Release",
+        "legandrop/LGA_SceneBuilder_Release",
         "legandrop/LGA_FolderSwitch"
     ]
 }
