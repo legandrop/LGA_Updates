@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-03T21:50:01Z",
-  "generatedAt": "2026-09-03T21:50:01Z",
+  "checkedAt": "2026-09-04T14:03:58Z",
+  "generatedAt": "2026-09-04T14:03:58Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.64",
@@ -84,18 +84,18 @@
       ]
     },
     "legandrop/LGA_HeiroTools": {
-      "tag": "v3.90",
-      "publishedAt": "2026-09-01T20:30:17Z",
+      "tag": "v3.91",
+      "publishedAt": "2026-09-04T14:03:40Z",
       "assets": [
         {
-          "name": "LGA_HeiroTools_v3.90_client.zip",
-          "digest": "sha256:a1dc7fc2ef94734fad618262693347ad40371e8e48060345c10126a6a3ba07a1",
-          "size": 457175747
+          "name": "LGA_HieroTools_v3.91_client.zip",
+          "digest": "sha256:b11e3805a183f22d14702f33a88cd1a92dca6a2e8c052cd201eccca58bf6ce6c",
+          "size": 457188739
         },
         {
-          "name": "LGA_HeiroTools_v3.90_studio.zip",
-          "digest": "sha256:d1c4e77440e6a35eac17624d1d29a4660ca1d309ddf56fdde4405ba7b6da7863",
-          "size": 457175747
+          "name": "LGA_HieroTools_v3.91_studio.zip",
+          "digest": "sha256:632b184cb3cfe3ba6eb8deaa3cbd2f1d4ed0a164d92be65af3ca9d402e749741",
+          "size": 457188739
         }
       ],
       "assetLatest": [
@@ -119,6 +119,20 @@
           "name": "LGA_HeiroTools_v3.90_studio.zip",
           "digest": "sha256:d1c4e77440e6a35eac17624d1d29a4660ca1d309ddf56fdde4405ba7b6da7863",
           "size": 457175747
+        },
+        {
+          "tag": "v3.91",
+          "publishedAt": "2026-09-04T14:03:40Z",
+          "name": "LGA_HieroTools_v3.91_client.zip",
+          "digest": "sha256:b11e3805a183f22d14702f33a88cd1a92dca6a2e8c052cd201eccca58bf6ce6c",
+          "size": 457188739
+        },
+        {
+          "tag": "v3.91",
+          "publishedAt": "2026-09-04T14:03:40Z",
+          "name": "LGA_HieroTools_v3.91_studio.zip",
+          "digest": "sha256:632b184cb3cfe3ba6eb8deaa3cbd2f1d4ed0a164d92be65af3ca9d402e749741",
+          "size": 457188739
         }
       ]
     },
