@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-17T18:51:27Z",
-  "generatedAt": "2026-09-16T22:06:25Z",
+  "checkedAt": "2026-09-18T09:41:49Z",
+  "generatedAt": "2026-09-18T09:41:49Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -388,10 +388,41 @@
           "size": 456915948
         }
       ]
+    },
+    "legandrop/LGA_FolderSwitch": {
+      "tag": "v0.10",
+      "publishedAt": "2026-09-18T09:41:18Z",
+      "assets": [
+        {
+          "name": "LGA_FolderSwitch_Setup_v0.10.exe",
+          "digest": "sha256:d69e9f5fa0463dca00ba35ddb7b9604777e5af77399a74b3879a730c00161cee",
+          "size": 10979490
+        },
+        {
+          "name": "SHA256SUMS",
+          "digest": "sha256:0eb5a70ee83beefa704f1334170d1ad47a3d3b81c83e9dd357611b29500823c0",
+          "size": 99
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.10",
+          "publishedAt": "2026-09-18T09:41:18Z",
+          "name": "LGA_FolderSwitch_Setup_v0.10.exe",
+          "digest": "sha256:d69e9f5fa0463dca00ba35ddb7b9604777e5af77399a74b3879a730c00161cee",
+          "size": 10979490
+        },
+        {
+          "tag": "v0.10",
+          "publishedAt": "2026-09-18T09:41:18Z",
+          "name": "SHA256SUMS",
+          "digest": "sha256:0eb5a70ee83beefa704f1334170d1ad47a3d3b81c83e9dd357611b29500823c0",
+          "size": 99
+        }
+      ]
     }
   },
   "missing": [
-    "legandrop/LGA_SceneBuilder_Release",
-    "legandrop/LGA_FolderSwitch"
+    "legandrop/LGA_SceneBuilder_Release"
   ]
 }
