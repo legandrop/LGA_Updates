@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-22T22:06:21Z",
-  "generatedAt": "2026-09-22T22:06:21Z",
+  "checkedAt": "2026-09-22T23:10:53Z",
+  "generatedAt": "2026-09-22T23:10:53Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -413,6 +413,7 @@
     }
   },
   "missing": [
+    "legandrop/LGA_FrameRev_Release",
     "legandrop/LGA_SceneBuilder_Release"
   ]
 }
