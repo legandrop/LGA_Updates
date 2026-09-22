@@ -9,7 +9,7 @@
         "",
         "Van los repos de RELEASE, no los de codigo. Varios productos tienen el codigo",
         "en un repo privado y publican en uno publico aparte (FileManager S3, Shot",
-        "Player, PipeSync, Media Tools): aca va el publico, que es donde viven los",
+        "Player, PipeSync, Media Tools, FrameRev): aca va el publico, que es donde viven los",
         "assets y de donde los baja el usuario.",
         "",
         "Todos tienen que ser PUBLICOS. El workflow corre con el token que GitHub le",
@@ -31,6 +31,7 @@
         "legandrop/LGA_FileManager_Release",
         "legandrop/LGA_ShotPlayer_Release",
         "legandrop/LGA_MediaTools_Release",
+        "legandrop/LGA_FrameRev_Release",
         "legandrop/LGA_SceneBuilder_Release",
         "legandrop/LGA_FolderSwitch"
     ]

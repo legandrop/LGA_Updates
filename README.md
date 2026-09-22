@@ -108,9 +108,9 @@ Sin eso habria que esperar al cron —hasta 30 minutos— para que el card de Pi
 nueva. Falla en silencio a proposito: si el disparo no sale, la release ya esta publicada igual y
 el cron la levanta sola.
 
-Lo hacen los siete puntos que publican: `instalador.bat` de PipeSync, FileManager S3, Media Tools
-y el Shot Player; y del lado de macOS `github_release_mac.sh` de PipeSync y FileManager S3, mas
-`deploy_player.sh` del Shot Player.
+Lo hacen los nueve puntos que publican: `instalador.bat` de PipeSync, FileManager S3, Media Tools,
+FrameRev y el Shot Player; y del lado de macOS `github_release_mac.sh` de PipeSync, FileManager S3
+y FrameRev, mas `deploy_player.sh` del Shot Player.
 
 **Las tools de Nuke (ToolPack, NodePack, HieroTools, OpenInNukeX) todavia NO lo hacen**: se
 publican desde `../LGA_Release`, que no se toco. Para esas hay que esperar al cron o correr el
@@ -125,6 +125,12 @@ demora**, porque Pages purga su cache al publicar.
 Agregar su repo de release a `repos.json` y correr el workflow a mano (pestana **Actions** →
 *Refresh versions manifest* → **Run workflow**) para no esperar al cron. Del lado de la app, la
 entrada del catalogo tiene que declarar el mismo slug.
+
+**FrameRev es una incorporacion en dos etapas.** Su repo publico ya esta listado aca para que el
+manifiesto lo levante apenas aparezca el primer release, pero todavia no tiene entrada en el
+catalogo visual de PipeSync. Hasta que se haga esa segunda etapa, figurara en `missing` si no hay
+release y no aparecera como fila del card; las dos cosas son esperadas y no son una falla del
+workflow.
 
 ## Si el manifiesto deja de actualizarse
 
