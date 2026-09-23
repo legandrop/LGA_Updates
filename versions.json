@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-22T23:10:53Z",
-  "generatedAt": "2026-09-22T23:10:53Z",
+  "checkedAt": "2026-09-23T01:25:32Z",
+  "generatedAt": "2026-09-23T01:25:32Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -379,6 +379,26 @@
         }
       ]
     },
+    "legandrop/LGA_FrameRev_Release": {
+      "tag": "v0.216",
+      "publishedAt": "2026-09-23T01:25:16Z",
+      "assets": [
+        {
+          "name": "LGA_FrameRev_Setup_v0.216.exe",
+          "digest": "sha256:c32be65c426c3b123442cff11c7bd8f24933ec68205eae726e188d8d788138bc",
+          "size": 19546119
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.216",
+          "publishedAt": "2026-09-23T01:25:16Z",
+          "name": "LGA_FrameRev_Setup_v0.216.exe",
+          "digest": "sha256:c32be65c426c3b123442cff11c7bd8f24933ec68205eae726e188d8d788138bc",
+          "size": 19546119
+        }
+      ]
+    },
     "legandrop/LGA_FolderSwitch": {
       "tag": "v0.10",
       "publishedAt": "2026-09-18T09:41:18Z",
@@ -413,7 +433,6 @@
     }
   },
   "missing": [
-    "legandrop/LGA_FrameRev_Release",
     "legandrop/LGA_SceneBuilder_Release"
   ]
 }
