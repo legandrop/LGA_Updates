@@ -33,6 +33,7 @@
         "legandrop/LGA_MediaTools_Release",
         "legandrop/LGA_FrameRev_Release",
         "legandrop/LGA_SceneBuilder_Release",
-        "legandrop/LGA_FolderSwitch"
+        "legandrop/LGA_FolderSwitch",
+        "legandrop/LGA_NukeShortcuts"
     ]
 }
