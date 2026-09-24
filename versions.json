@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-24T15:53:05Z",
-  "generatedAt": "2026-09-24T15:53:05Z",
+  "checkedAt": "2026-09-24T16:48:32Z",
+  "generatedAt": "2026-09-24T16:48:32Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -428,6 +428,38 @@
           "name": "SHA256SUMS",
           "digest": "sha256:0eb5a70ee83beefa704f1334170d1ad47a3d3b81c83e9dd357611b29500823c0",
           "size": 99
+        }
+      ]
+    },
+    "legandrop/LGA_NukeShortcuts": {
+      "tag": "v2.03",
+      "publishedAt": "2026-09-24T16:48:14Z",
+      "assets": [
+        {
+          "name": "LGA_NukeShortcuts_Setup_v2.03.exe",
+          "digest": "sha256:35879a803167dc9541830554bf21cc4d0507d004fcead4cb530c1c7880be1895",
+          "size": 11021515
+        },
+        {
+          "name": "SHA256SUMS",
+          "digest": "sha256:97eb74d09419a8f585841c933110620c0c977afac5ed121ec483d0edb792c04a",
+          "size": 100
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v2.03",
+          "publishedAt": "2026-09-24T16:48:14Z",
+          "name": "LGA_NukeShortcuts_Setup_v2.03.exe",
+          "digest": "sha256:35879a803167dc9541830554bf21cc4d0507d004fcead4cb530c1c7880be1895",
+          "size": 11021515
+        },
+        {
+          "tag": "v2.03",
+          "publishedAt": "2026-09-24T16:48:14Z",
+          "name": "SHA256SUMS",
+          "digest": "sha256:97eb74d09419a8f585841c933110620c0c977afac5ed121ec483d0edb792c04a",
+          "size": 100
         }
       ]
     }
