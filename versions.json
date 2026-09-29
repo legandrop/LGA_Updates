@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-09-29T15:28:21Z",
-  "generatedAt": "2026-09-28T19:28:16Z",
+  "checkedAt": "2026-09-29T21:08:04Z",
+  "generatedAt": "2026-09-29T21:08:04Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -175,6 +175,16 @@
       "publishedAt": "2026-09-28T19:24:22Z",
       "assets": [
         {
+          "name": "LGA_PipeSync_Mac_v1.014.dmg",
+          "digest": "sha256:617606c930c91d5eb2689b5558ee3c070c374b66595b7015a5097795ba5a8050",
+          "size": 169013847
+        },
+        {
+          "name": "LGA_PipeSync_Mac_v1.014.zip",
+          "digest": "sha256:f7f52f28990a6355ba8ca3d47d277ae5f65b65c2df514530e9113a1518334020",
+          "size": 188569586
+        },
+        {
           "name": "PipeSync_Client_Setup_v1.014.exe",
           "digest": "sha256:7f492c8614436d57527c02d83b38bc4c5bce355ac6ab1596b73f8125890f9299",
           "size": 309912276
@@ -187,18 +197,18 @@
       ],
       "assetLatest": [
         {
-          "tag": "v1.011",
-          "publishedAt": "2026-09-14T03:17:20Z",
-          "name": "LGA_PipeSync_Mac_v1.011.dmg",
-          "digest": "sha256:efc0c5d86732caeb6019358dfe0fee4d8a3b0882e27f5cf484bbed1443922be2",
-          "size": 168175295
+          "tag": "v1.014",
+          "publishedAt": "2026-09-28T19:24:22Z",
+          "name": "LGA_PipeSync_Mac_v1.014.dmg",
+          "digest": "sha256:617606c930c91d5eb2689b5558ee3c070c374b66595b7015a5097795ba5a8050",
+          "size": 169013847
         },
         {
-          "tag": "v1.011",
-          "publishedAt": "2026-09-14T03:17:20Z",
-          "name": "LGA_PipeSync_Mac_v1.011.zip",
-          "digest": "sha256:91bac5764059ca7c4498d1fe97f320526ee5db20ce9228d6663f79e5f262626f",
-          "size": 187957019
+          "tag": "v1.014",
+          "publishedAt": "2026-09-28T19:24:22Z",
+          "name": "LGA_PipeSync_Mac_v1.014.zip",
+          "digest": "sha256:f7f52f28990a6355ba8ca3d47d277ae5f65b65c2df514530e9113a1518334020",
+          "size": 188569586
         },
         {
           "tag": "v1.014",
