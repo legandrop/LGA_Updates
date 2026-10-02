@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T11:57:52Z",
-  "generatedAt": "2026-10-02T11:57:52Z",
+  "checkedAt": "2026-10-02T12:01:11Z",
+  "generatedAt": "2026-10-02T12:01:11Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -181,6 +181,11 @@
       "publishedAt": "2026-10-02T11:57:32Z",
       "assets": [
         {
+          "name": "PipeSync_Client_Setup_v1.015.exe",
+          "digest": "sha256:d95773a83b0b045b848b14936a2ad6814edc32064ec8ea1dd01b13706db4c91d",
+          "size": 321173919
+        },
+        {
           "name": "PipeSync_Setup_v1.015.exe",
           "digest": "sha256:a4aac0e675cfb7bd07c84acc51dbd6fd69e61a8cb519557aed1504ccc0a3bbb5",
           "size": 321158898
@@ -207,11 +212,11 @@
           "size": 188569586
         },
         {
-          "tag": "v1.014",
-          "publishedAt": "2026-09-28T19:24:22Z",
-          "name": "PipeSync_Client_Setup_v1.014.exe",
-          "digest": "sha256:7f492c8614436d57527c02d83b38bc4c5bce355ac6ab1596b73f8125890f9299",
-          "size": 309912276
+          "tag": "v1.015",
+          "publishedAt": "2026-10-02T11:57:32Z",
+          "name": "PipeSync_Client_Setup_v1.015.exe",
+          "digest": "sha256:d95773a83b0b045b848b14936a2ad6814edc32064ec8ea1dd01b13706db4c91d",
+          "size": 321173919
         },
         {
           "tag": "v0.999",
