@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T05:14:49Z",
-  "generatedAt": "2026-10-02T05:14:49Z",
+  "checkedAt": "2026-10-02T05:28:55Z",
+  "generatedAt": "2026-10-02T05:28:55Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -410,33 +410,33 @@
       ]
     },
     "legandrop/LGA_MightyTools": {
-      "tag": "v1.12",
-      "publishedAt": "2026-10-02T02:42:30Z",
+      "tag": "v1.14",
+      "publishedAt": "2026-10-02T05:28:39Z",
       "assets": [
         {
-          "name": "LGA_MightyTools_Setup_v1.12.exe",
-          "digest": "sha256:a8325f0876fd0e2e9a4047fd1566099fda6b84ab0388f65753279838aabb1943",
-          "size": 12169181
+          "name": "LGA_MightyTools_Setup_v1.14.exe",
+          "digest": "sha256:e9b152e91900b7591cadd177f62e26fa1b13e78c246ade0f94cd6d96be5eefff",
+          "size": 12175650
         },
         {
           "name": "SHA256SUMS",
-          "digest": "sha256:cd55e85dbdce03ba01f8093085c79dcd9d3d99ac34091fbf820ef5477a8686c5",
+          "digest": "sha256:f85c81aefd4bad730b1462f7e07ec81706bef379c56dcb6aadcf4261953806dc",
           "size": 98
         }
       ],
       "assetLatest": [
         {
-          "tag": "v1.12",
-          "publishedAt": "2026-10-02T02:42:30Z",
-          "name": "LGA_MightyTools_Setup_v1.12.exe",
-          "digest": "sha256:a8325f0876fd0e2e9a4047fd1566099fda6b84ab0388f65753279838aabb1943",
-          "size": 12169181
+          "tag": "v1.14",
+          "publishedAt": "2026-10-02T05:28:39Z",
+          "name": "LGA_MightyTools_Setup_v1.14.exe",
+          "digest": "sha256:e9b152e91900b7591cadd177f62e26fa1b13e78c246ade0f94cd6d96be5eefff",
+          "size": 12175650
         },
         {
-          "tag": "v1.12",
-          "publishedAt": "2026-10-02T02:42:30Z",
+          "tag": "v1.14",
+          "publishedAt": "2026-10-02T05:28:39Z",
           "name": "SHA256SUMS",
-          "digest": "sha256:cd55e85dbdce03ba01f8093085c79dcd9d3d99ac34091fbf820ef5477a8686c5",
+          "digest": "sha256:f85c81aefd4bad730b1462f7e07ec81706bef379c56dcb6aadcf4261953806dc",
           "size": 98
         }
       ]
