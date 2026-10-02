@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T11:02:36Z",
-  "generatedAt": "2026-10-02T11:02:36Z",
+  "checkedAt": "2026-10-02T11:57:52Z",
+  "generatedAt": "2026-10-02T11:57:52Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -21,7 +21,8 @@
           "digest": "sha256:0dfe947b2cd4c9e9430ff26065e26214296bae8d039c399e3329bea1b1b8c590",
           "size": 5640221
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_ToolPack_B-for_Nuke": {
       "tag": "v1.08",
@@ -41,7 +42,8 @@
           "digest": "sha256:e81de89db928d53c11c59479557b2121c9d9303dd1e817faf51f5c5c8674f7a9",
           "size": 3553146
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_ToolPack_Layout-for_Nuke": {
       "tag": "v2.62",
@@ -61,7 +63,8 @@
           "digest": "sha256:2a77d336dc38cabb6816bd3085555b36bd13a13fbdb9aa200342d4b3bc2a7e10",
           "size": 11043174
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_NodePack": {
       "tag": "v1.48",
@@ -81,7 +84,8 @@
           "digest": "sha256:056e52733dbffab57b17c2547864a1a0e3e4776f526a4f82443bed470d297696",
           "size": 1285219
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_HeiroTools": {
       "tag": "v3.96",
@@ -134,7 +138,8 @@
           "digest": "sha256:c82d6336e3e519c8ab519c85332ce2bbb032ddd48f6ca3a8607cd3e6792c1e6b",
           "size": 457520700
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_OpenInNukeX": {
       "tag": "v1.83",
@@ -168,31 +173,22 @@
           "digest": "sha256:cbfa7fd5a43ba03d94d67a0886e9a93faa48c4f39ad128ae242342cd3f9da18d",
           "size": 18161860
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_PipeSync_Release": {
-      "tag": "v1.014",
-      "publishedAt": "2026-09-28T19:24:22Z",
+      "tag": "v1.015",
+      "publishedAt": "2026-10-02T11:57:32Z",
       "assets": [
         {
-          "name": "LGA_PipeSync_Mac_v1.014.dmg",
-          "digest": "sha256:617606c930c91d5eb2689b5558ee3c070c374b66595b7015a5097795ba5a8050",
-          "size": 169013847
+          "name": "PipeSync_Setup_v1.015.exe",
+          "digest": "sha256:a4aac0e675cfb7bd07c84acc51dbd6fd69e61a8cb519557aed1504ccc0a3bbb5",
+          "size": 321158898
         },
         {
-          "name": "LGA_PipeSync_Mac_v1.014.zip",
-          "digest": "sha256:f7f52f28990a6355ba8ca3d47d277ae5f65b65c2df514530e9113a1518334020",
-          "size": 188569586
-        },
-        {
-          "name": "PipeSync_Client_Setup_v1.014.exe",
-          "digest": "sha256:7f492c8614436d57527c02d83b38bc4c5bce355ac6ab1596b73f8125890f9299",
-          "size": 309912276
-        },
-        {
-          "name": "PipeSync_Setup_v1.014.exe",
-          "digest": "sha256:af1d4bcb86d3662ac527fe06c71401d72e5aeecfaec171d55f354b2c59b22da4",
-          "size": 309896392
+          "name": "whats_new.json",
+          "digest": "sha256:b3b9fb54bf7a7edb2a04b13cb7beab13417c0483e6e1fbf33254dc1f8c850512",
+          "size": 5069
         }
       ],
       "assetLatest": [
@@ -232,11 +228,18 @@
           "size": 280738955
         },
         {
-          "tag": "v1.014",
-          "publishedAt": "2026-09-28T19:24:22Z",
-          "name": "PipeSync_Setup_v1.014.exe",
-          "digest": "sha256:af1d4bcb86d3662ac527fe06c71401d72e5aeecfaec171d55f354b2c59b22da4",
-          "size": 309896392
+          "tag": "v1.015",
+          "publishedAt": "2026-10-02T11:57:32Z",
+          "name": "PipeSync_Setup_v1.015.exe",
+          "digest": "sha256:a4aac0e675cfb7bd07c84acc51dbd6fd69e61a8cb519557aed1504ccc0a3bbb5",
+          "size": 321158898
+        },
+        {
+          "tag": "v1.015",
+          "publishedAt": "2026-10-02T11:57:32Z",
+          "name": "whats_new.json",
+          "digest": "sha256:b3b9fb54bf7a7edb2a04b13cb7beab13417c0483e6e1fbf33254dc1f8c850512",
+          "size": 5069
         }
       ]
     },
@@ -333,7 +336,8 @@
           "digest": "sha256:6c21d134f9db8229e065205fcd29c6a95aacc941cd0a1fa953bb1068ff4645f1",
           "size": 168481111
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_ShotPlayer_Release": {
       "tag": "v0.249",
@@ -367,7 +371,8 @@
           "digest": "sha256:1d1dcc6b5cbab950f537da5d0c0801a9a92fe744a43b7ad65201339a9ff77368",
           "size": 144380482
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_MediaTools_Release": {
       "tag": "v0.581",
@@ -387,27 +392,29 @@
           "digest": "sha256:d064988b70c4b2d4d2b5b4365c3b2ef0eb78399316886b88009d7ef1cae62d4e",
           "size": 456915948
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_FrameRev_Release": {
-      "tag": "v0.267",
-      "publishedAt": "2026-10-02T09:45:37Z",
+      "tag": "v0.270",
+      "publishedAt": "2026-10-02T11:57:34Z",
       "assets": [
         {
-          "name": "LGA_FrameRev_Setup_v0.267.exe",
-          "digest": "sha256:c2ba481bd163f07e9c3bbd4dec07a9d095ea8903ce3c17932acfeae987a411d8",
-          "size": 19691579
+          "name": "LGA_FrameRev_Setup_v0.270.exe",
+          "digest": "sha256:e4fee66b500c89140828b454ff82386be8ed92cf6d012bed3017bbd93a37d10d",
+          "size": 19680207
         }
       ],
       "assetLatest": [
         {
-          "tag": "v0.267",
-          "publishedAt": "2026-10-02T09:45:37Z",
-          "name": "LGA_FrameRev_Setup_v0.267.exe",
-          "digest": "sha256:c2ba481bd163f07e9c3bbd4dec07a9d095ea8903ce3c17932acfeae987a411d8",
-          "size": 19691579
+          "tag": "v0.270",
+          "publishedAt": "2026-10-02T11:57:34Z",
+          "name": "LGA_FrameRev_Setup_v0.270.exe",
+          "digest": "sha256:e4fee66b500c89140828b454ff82386be8ed92cf6d012bed3017bbd93a37d10d",
+          "size": 19680207
         }
-      ]
+      ],
+      "notesMissing": true
     },
     "legandrop/LGA_MightyTools": {
       "tag": "v1.21",
@@ -439,7 +446,8 @@
           "digest": "sha256:775e095efc8db87accc188fa4ccea3bc206af6fbf2df715f2bf1c09ee7a45084",
           "size": 98
         }
-      ]
+      ],
+      "notesMissing": true
     }
   },
   "missing": [
