@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-02T12:01:11Z",
-  "generatedAt": "2026-10-02T12:01:11Z",
+  "checkedAt": "2026-10-02T12:08:37Z",
+  "generatedAt": "2026-10-02T12:08:37Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -450,6 +450,39 @@
           "name": "SHA256SUMS",
           "digest": "sha256:775e095efc8db87accc188fa4ccea3bc206af6fbf2df715f2bf1c09ee7a45084",
           "size": 98
+        }
+      ],
+      "notesMissing": true
+    },
+    "legandrop/LGA_ThetaMacEplorer": {
+      "tag": "v0.996",
+      "publishedAt": "2026-10-02T12:08:16Z",
+      "assets": [
+        {
+          "name": "LGA_ThetaMacExplorer_Mac_v0.996.dmg",
+          "digest": "sha256:5bb60a6c2051d84b1f2cdbdbdb15d55a94cb1276b3603d11361571d35d18e9a0",
+          "size": 40174903
+        },
+        {
+          "name": "LGA_ThetaMacExplorer_Mac_v0.996.zip",
+          "digest": "sha256:18f071d6ed96fd6b7216a77df321409133f6df05f060d5fd86bc0e5ac70e319e",
+          "size": 42612838
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.996",
+          "publishedAt": "2026-10-02T12:08:16Z",
+          "name": "LGA_ThetaMacExplorer_Mac_v0.996.dmg",
+          "digest": "sha256:5bb60a6c2051d84b1f2cdbdbdb15d55a94cb1276b3603d11361571d35d18e9a0",
+          "size": 40174903
+        },
+        {
+          "tag": "v0.996",
+          "publishedAt": "2026-10-02T12:08:16Z",
+          "name": "LGA_ThetaMacExplorer_Mac_v0.996.zip",
+          "digest": "sha256:18f071d6ed96fd6b7216a77df321409133f6df05f060d5fd86bc0e5ac70e319e",
+          "size": 42612838
         }
       ],
       "notesMissing": true
