@@ -23,7 +23,10 @@
         "FolderSwitch y NukeShortcuts salieron de la lista (2026-10-02): quedaron dentro de",
         "Mighty Tools y no publican mas. Sus apps viejas ya instaladas, al no encontrarse en",
         "el manifiesto, contestan 'no hay update' en silencio. OpenInNukeX SIGUE porque",
-        "PipeSync todavia ofrece su fila en macOS, donde Mighty Tools no tiene release."
+        "PipeSync todavia ofrece su fila en macOS, donde Mighty Tools no tiene release.",
+        "",
+        "ThetaMacExplorer (2026-10-02) publica en su propio repo, que es publico y tiene el codigo:",
+        "el nombre del repo es 'Eplorer', sin la x."
     ],
     "repos": [
         "legandrop/LGA_ToolPack-for_Nuke",
@@ -38,6 +41,7 @@
         "legandrop/LGA_MediaTools_Release",
         "legandrop/LGA_FrameRev_Release",
         "legandrop/LGA_SceneBuilder_Release",
-        "legandrop/LGA_MightyTools"
+        "legandrop/LGA_MightyTools",
+        "legandrop/LGA_ThetaMacEplorer"
     ]
 }
