@@ -100,6 +100,38 @@ for repo in "${REPOS[@]}"; do
 
     echo "  $tag ($(jq -r 'length' <<<"$assets") assets)"
 
+    # `notesMissing`: el ULTIMO release no trae el asset `whats_new.json`, o sea que sus notas
+    # para el usuario no se publicaron. Es una red de seguridad para los releases hechos a mano
+    # (un `gh release create` suelto, sin pasar por el script de release del producto): el
+    # consumidor puede avisar "sin notas" en vez de quedarse mudo.
+    #
+    # Sale de los assets del `releases/latest` que ya se pidio arriba, asi que no cuesta ninguna
+    # request mas. Tres estados, y el tercero es el que importa:
+    #   present  -> el asset esta: la clave NO se escribe (el manifiesto queda igual que antes).
+    #   missing  -> no esta: `notesMissing: true`.
+    #   unknown  -> la respuesta no trae una lista de assets legible: NO se marca nada. Marcar
+    #               "faltan notas" por un dato que no se pudo leer seria un diagnostico falso,
+    #               y el proximo ciclo del cron lo resuelve solo.
+    # Un repo que fallo del todo (transitorio o 404) ya salio mas arriba por `continue`, y ahi
+    # la entrada del manifiesto anterior se conserva tal cual, con o sin esta clave.
+    #
+    # Es ADITIVO como `assetLatest`: `schemaVersion` no se mueve, y los consumidores leen por
+    # clave (`value("tag")`, `value("assets")`...), asi que una clave nueva no los toca. Vive
+    # DENTRO de `products` a proposito: el workflow decide si commitear comparando
+    # `{products, missing}`, y un campo afuera no dispararia el commit al cambiar.
+    notes_state="$(jq -r '
+        if (.assets | type) != "array" then "unknown"
+        elif any(.assets[]; .name == "whats_new.json") then "present"
+        else "missing" end
+    ' <<<"$release_json")"
+    notes_missing="null"
+    if [[ "$notes_state" == "missing" ]]; then
+        notes_missing="true"
+        echo "  notesMissing: $tag no trae whats_new.json"
+    elif [[ "$notes_state" == "unknown" ]]; then
+        echo "  no se pudo leer la lista de assets de $tag, no se marca notesMissing"
+    fi
+
     # `assetLatest`: el asset MAS NUEVO de cada familia de artefacto, que no siempre vive en el
     # ultimo release.
     #
@@ -163,8 +195,10 @@ for repo in "${REPOS[@]}"; do
         --arg published "$published" \
         --argjson assets "$assets" \
         --argjson assetLatest "$asset_latest" \
+        --argjson notesMissing "$notes_missing" \
         '.[$repo] = ({tag: $tag, publishedAt: $published, assets: $assets}
-                     + (if $assetLatest == null then {} else {assetLatest: $assetLatest} end))' \
+                     + (if $assetLatest == null then {} else {assetLatest: $assetLatest} end)
+                     + (if $notesMissing == true then {notesMissing: true} else {} end))' \
         <<<"$products")"
 done
 

@@ -77,6 +77,7 @@ las apps pasaron de ~9 requests por arranque a **1**.
   El manifiesto no sabe que es "Windows" o "macOS": agrupa por el nombre del asset con la version
   borrada y se queda con el mas nuevo de cada grupo. Quien elige cual le toca es cada app, con el
   patron de asset que ya tiene. Se mira dentro de los ultimos 100 releases del repo.
+- **`notesMissing`** aparece (con valor `true`) solo en los productos cuyo **ultimo release no trae el asset `whats_new.json`**, es decir, cuyas notas para el usuario no se publicaron: es una red de seguridad para los releases hechos a mano, sin pasar por el script de release del producto. Si el asset esta, la clave no existe. Tampoco se escribe cuando la respuesta de GitHub no trae una lista de assets legible: no marcar es mejor que marcar por un dato que no se pudo leer. Sale de los assets del `releases/latest` ya pedido, sin requests extra, y vive dentro de `products` para que un cambio dispare el commit del workflow. Es aditivo: los consumidores leen por clave y no se enteran.
 - La URL de descarga no se guarda porque es derivable
   (`github.com/<repo>/releases/download/<tag>/<asset>`) y guardarla seria un segundo lugar donde
   el mismo dato puede quedar viejo.
