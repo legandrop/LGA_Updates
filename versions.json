@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-04T21:39:10Z",
-  "generatedAt": "2026-10-04T21:39:10Z",
+  "checkedAt": "2026-10-04T21:42:42Z",
+  "generatedAt": "2026-10-04T21:42:42Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -356,13 +356,18 @@
       ]
     },
     "legandrop/LGA_ShotPlayer_Release": {
-      "tag": "v0.249",
-      "publishedAt": "2026-09-25T13:43:53Z",
+      "tag": "v0.256",
+      "publishedAt": "2026-10-04T21:42:16Z",
       "assets": [
         {
-          "name": "LGA_Shot_Player_Setup_v0.249.exe",
-          "digest": "sha256:1d1dcc6b5cbab950f537da5d0c0801a9a92fe744a43b7ad65201339a9ff77368",
-          "size": 144380482
+          "name": "LGA_Shot_Player_Setup_v0.256.exe",
+          "digest": "sha256:2734d11f70c3969a333f36159017f5c82dd89cfe77eb9f3fce56d6b42c8d23b1",
+          "size": 144437489
+        },
+        {
+          "name": "whats_new.json",
+          "digest": "sha256:60f45ab9378d911bb7f0e8c4191ab43686603002563faa964630c1fbb81b213c",
+          "size": 2103
         }
       ],
       "assetLatest": [
@@ -381,14 +386,20 @@
           "size": 197427774
         },
         {
-          "tag": "v0.249",
-          "publishedAt": "2026-09-25T13:43:53Z",
-          "name": "LGA_Shot_Player_Setup_v0.249.exe",
-          "digest": "sha256:1d1dcc6b5cbab950f537da5d0c0801a9a92fe744a43b7ad65201339a9ff77368",
-          "size": 144380482
+          "tag": "v0.256",
+          "publishedAt": "2026-10-04T21:42:16Z",
+          "name": "LGA_Shot_Player_Setup_v0.256.exe",
+          "digest": "sha256:2734d11f70c3969a333f36159017f5c82dd89cfe77eb9f3fce56d6b42c8d23b1",
+          "size": 144437489
+        },
+        {
+          "tag": "v0.256",
+          "publishedAt": "2026-10-04T21:42:16Z",
+          "name": "whats_new.json",
+          "digest": "sha256:60f45ab9378d911bb7f0e8c4191ab43686603002563faa964630c1fbb81b213c",
+          "size": 2103
         }
-      ],
-      "notesMissing": true
+      ]
     },
     "legandrop/LGA_MediaTools_Release": {
       "tag": "v0.613",
