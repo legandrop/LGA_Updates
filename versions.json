@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-04T13:48:37Z",
-  "generatedAt": "2026-10-02T12:24:46Z",
+  "checkedAt": "2026-10-04T21:04:40Z",
+  "generatedAt": "2026-10-04T21:04:40Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.65",
@@ -249,18 +249,18 @@
       ]
     },
     "legandrop/LGA_FileManager_Release": {
-      "tag": "v0.915",
-      "publishedAt": "2026-09-14T13:34:38Z",
+      "tag": "v0.917",
+      "publishedAt": "2026-10-04T21:04:13Z",
       "assets": [
         {
-          "name": "FileManagerS3Client_Setup_v0.915.exe",
-          "digest": "sha256:4139fb7ee4667c825a6e0296559315f9b51aae1e577f1200b83ed32e6317427f",
-          "size": 197502372
+          "name": "FileManagerS3_Setup_v0.917.exe",
+          "digest": "sha256:0390ea75162611ab39a2b5f1d400f9dc8bd450e2beddff87d31834d6651a3b8d",
+          "size": 197461747
         },
         {
-          "name": "FileManagerS3_Setup_v0.915.exe",
-          "digest": "sha256:ad70204384e05b2446fd99295cee50a1333d495ba0d67a38c47aecfd20dc0d80",
-          "size": 197512323
+          "name": "whats_new.json",
+          "digest": "sha256:cdc3d0f928270b04719ccaa899c88ce2b041d92dca28bf8b45cbcfb1ea4aee0c",
+          "size": 3800
         }
       ],
       "assetLatest": [
@@ -286,11 +286,11 @@
           "size": 270275920
         },
         {
-          "tag": "v0.915",
-          "publishedAt": "2026-09-14T13:34:38Z",
-          "name": "FileManagerS3_Setup_v0.915.exe",
-          "digest": "sha256:ad70204384e05b2446fd99295cee50a1333d495ba0d67a38c47aecfd20dc0d80",
-          "size": 197512323
+          "tag": "v0.917",
+          "publishedAt": "2026-10-04T21:04:13Z",
+          "name": "FileManagerS3_Setup_v0.917.exe",
+          "digest": "sha256:0390ea75162611ab39a2b5f1d400f9dc8bd450e2beddff87d31834d6651a3b8d",
+          "size": 197461747
         },
         {
           "tag": "v0.902",
@@ -340,9 +340,15 @@
           "name": "LGA_FileManager_S3_Mac_v0.909.zip",
           "digest": "sha256:6c21d134f9db8229e065205fcd29c6a95aacc941cd0a1fa953bb1068ff4645f1",
           "size": 168481111
+        },
+        {
+          "tag": "v0.917",
+          "publishedAt": "2026-10-04T21:04:13Z",
+          "name": "whats_new.json",
+          "digest": "sha256:cdc3d0f928270b04719ccaa899c88ce2b041d92dca28bf8b45cbcfb1ea4aee0c",
+          "size": 3800
         }
-      ],
-      "notesMissing": true
+      ]
     },
     "legandrop/LGA_ShotPlayer_Release": {
       "tag": "v0.249",
