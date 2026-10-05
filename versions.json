@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T00:32:01Z",
-  "generatedAt": "2026-10-05T00:32:01Z",
+  "checkedAt": "2026-10-05T00:55:28Z",
+  "generatedAt": "2026-10-05T00:55:28Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.66",
@@ -471,12 +471,36 @@
       "publishedAt": "2026-10-04T21:25:41Z",
       "assets": [
         {
+          "name": "LGA_FrameRev_Mac_v0.274.dmg",
+          "digest": "sha256:3439d62447c3693bc53a93aeaadf41ddaf6b890e78374717e0016cde934807f3",
+          "size": 42626082
+        },
+        {
+          "name": "LGA_FrameRev_Mac_v0.274.zip",
+          "digest": "sha256:8d37e0ab8dc81f771b82e0a846d1796c511f7dbe7025990af122f7ac6f619c73",
+          "size": 45397189
+        },
+        {
           "name": "LGA_FrameRev_Setup_v0.274.exe",
           "digest": "sha256:2e5fabeecc3d7a7ad771957fb7fd729ab5bba6b7be449f5b2e2d2f658a0a136c",
           "size": 19684206
         }
       ],
       "assetLatest": [
+        {
+          "tag": "v0.274",
+          "publishedAt": "2026-10-04T21:25:41Z",
+          "name": "LGA_FrameRev_Mac_v0.274.dmg",
+          "digest": "sha256:3439d62447c3693bc53a93aeaadf41ddaf6b890e78374717e0016cde934807f3",
+          "size": 42626082
+        },
+        {
+          "tag": "v0.274",
+          "publishedAt": "2026-10-04T21:25:41Z",
+          "name": "LGA_FrameRev_Mac_v0.274.zip",
+          "digest": "sha256:8d37e0ab8dc81f771b82e0a846d1796c511f7dbe7025990af122f7ac6f619c73",
+          "size": 45397189
+        },
         {
           "tag": "v0.274",
           "publishedAt": "2026-10-04T21:25:41Z",
