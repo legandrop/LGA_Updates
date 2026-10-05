@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-05T00:21:18Z",
-  "generatedAt": "2026-10-05T00:21:18Z",
+  "checkedAt": "2026-10-05T00:32:01Z",
+  "generatedAt": "2026-10-05T00:32:01Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.66",
@@ -488,49 +488,44 @@
       "notesMissing": true
     },
     "legandrop/LGA_MightyTools": {
-      "tag": "v1.31",
-      "publishedAt": "2026-10-04T22:50:52Z",
+      "tag": "v1.33",
+      "publishedAt": "2026-10-05T00:31:54Z",
       "assets": [
         {
-          "name": "LGA_MightyTools_Mac_v1.31.dmg",
-          "digest": "sha256:83efae876a45f704d473a4d860d546d2ae0db3c92314a616b3ac30938df24b44",
-          "size": 24590453
+          "name": "LGA_MightyTools_Mac_v1.33.dmg",
+          "digest": "sha256:ee23f74623205e2837a0395b931fc0c597f604dec80a1e6179839397236570d7",
+          "size": 24813578
         },
         {
-          "name": "LGA_MightyTools_Mac_v1.31.zip",
-          "digest": "sha256:3a4323d5b7160c176b9774a8d61dab6a2e7b18a7a4dde0da477b20ef4afd6dc4",
-          "size": 26116857
-        },
-        {
-          "name": "LGA_MightyTools_Setup_v1.31.exe",
-          "digest": "sha256:634006e4b38fbd7b94273710e88de6c36edc3459ddae8aa90d0cf1cf47fc94b1",
-          "size": 12450511
+          "name": "LGA_MightyTools_Mac_v1.33.zip",
+          "digest": "sha256:05a41b7f22b6fb8f8ecc5ca8b47e4607b1ccb1047de32038713e4132231636bc",
+          "size": 26258411
         },
         {
           "name": "SHA256SUMS",
-          "digest": "sha256:5141c46c85996cd500b4be74f12228e29cd1e84e4c3b0b9467ce170ded543389",
-          "size": 290
+          "digest": "sha256:7e829ae7adb5d2f43b18ea9bd4d337831a600636d4f7818e80fd32bc660bf6f9",
+          "size": 192
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:82ce0d4dbe6a14b63cf96b38fbdf8e3d8227cb42e3f20eade048c76222b2424e",
-          "size": 1450
+          "digest": "sha256:2d30fccf3be3b02475ed1e044d4c804f59a96f2157723ef8546c849128e9ebb5",
+          "size": 1777
         }
       ],
       "assetLatest": [
         {
-          "tag": "v1.31",
-          "publishedAt": "2026-10-04T22:50:52Z",
-          "name": "LGA_MightyTools_Mac_v1.31.dmg",
-          "digest": "sha256:83efae876a45f704d473a4d860d546d2ae0db3c92314a616b3ac30938df24b44",
-          "size": 24590453
+          "tag": "v1.33",
+          "publishedAt": "2026-10-05T00:31:54Z",
+          "name": "LGA_MightyTools_Mac_v1.33.dmg",
+          "digest": "sha256:ee23f74623205e2837a0395b931fc0c597f604dec80a1e6179839397236570d7",
+          "size": 24813578
         },
         {
-          "tag": "v1.31",
-          "publishedAt": "2026-10-04T22:50:52Z",
-          "name": "LGA_MightyTools_Mac_v1.31.zip",
-          "digest": "sha256:3a4323d5b7160c176b9774a8d61dab6a2e7b18a7a4dde0da477b20ef4afd6dc4",
-          "size": 26116857
+          "tag": "v1.33",
+          "publishedAt": "2026-10-05T00:31:54Z",
+          "name": "LGA_MightyTools_Mac_v1.33.zip",
+          "digest": "sha256:05a41b7f22b6fb8f8ecc5ca8b47e4607b1ccb1047de32038713e4132231636bc",
+          "size": 26258411
         },
         {
           "tag": "v1.31",
@@ -540,18 +535,18 @@
           "size": 12450511
         },
         {
-          "tag": "v1.31",
-          "publishedAt": "2026-10-04T22:50:52Z",
+          "tag": "v1.33",
+          "publishedAt": "2026-10-05T00:31:54Z",
           "name": "SHA256SUMS",
-          "digest": "sha256:5141c46c85996cd500b4be74f12228e29cd1e84e4c3b0b9467ce170ded543389",
-          "size": 290
+          "digest": "sha256:7e829ae7adb5d2f43b18ea9bd4d337831a600636d4f7818e80fd32bc660bf6f9",
+          "size": 192
         },
         {
-          "tag": "v1.31",
-          "publishedAt": "2026-10-04T22:50:52Z",
+          "tag": "v1.33",
+          "publishedAt": "2026-10-05T00:31:54Z",
           "name": "whats_new.json",
-          "digest": "sha256:82ce0d4dbe6a14b63cf96b38fbdf8e3d8227cb42e3f20eade048c76222b2424e",
-          "size": 1450
+          "digest": "sha256:2d30fccf3be3b02475ed1e044d4c804f59a96f2157723ef8546c849128e9ebb5",
+          "size": 1777
         }
       ]
     },
