@@ -1,37 +1,37 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T19:01:45Z",
-  "generatedAt": "2026-10-08T19:01:45Z",
+  "checkedAt": "2026-10-08T19:02:54Z",
+  "generatedAt": "2026-10-08T19:02:54Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
-      "tag": "v2.66",
-      "publishedAt": "2026-10-04T22:13:15Z",
+      "tag": "v2.67",
+      "publishedAt": "2026-10-08T19:02:30Z",
       "assets": [
         {
-          "name": "LGA_ToolPack_v2.66.zip",
-          "digest": "sha256:c0bb59a77c07bf3eef10f496dd25d1357f981e93ecb0414d0e97592546afb2fc",
-          "size": 5688754
+          "name": "LGA_ToolPack_v2.67.zip",
+          "digest": "sha256:8957855904c4cc8d5e5420fecd2fd9783603b48ff752cefdda66a736f611f328",
+          "size": 5698325
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:85aad4e74bf708d55dab987d7c77a7dd0be2a04e97e456f66853bca4ce7c4cd5",
-          "size": 2785
+          "digest": "sha256:199cf1676e7dae3e2a85cd04d8c8225a3b35cc0d2120d8d73203cd8024a12ff9",
+          "size": 3712
         }
       ],
       "assetLatest": [
         {
-          "tag": "v2.66",
-          "publishedAt": "2026-10-04T22:13:15Z",
-          "name": "LGA_ToolPack_v2.66.zip",
-          "digest": "sha256:c0bb59a77c07bf3eef10f496dd25d1357f981e93ecb0414d0e97592546afb2fc",
-          "size": 5688754
+          "tag": "v2.67",
+          "publishedAt": "2026-10-08T19:02:30Z",
+          "name": "LGA_ToolPack_v2.67.zip",
+          "digest": "sha256:8957855904c4cc8d5e5420fecd2fd9783603b48ff752cefdda66a736f611f328",
+          "size": 5698325
         },
         {
-          "tag": "v2.66",
-          "publishedAt": "2026-10-04T22:13:15Z",
+          "tag": "v2.67",
+          "publishedAt": "2026-10-08T19:02:30Z",
           "name": "whats_new.json",
-          "digest": "sha256:85aad4e74bf708d55dab987d7c77a7dd0be2a04e97e456f66853bca4ce7c4cd5",
-          "size": 2785
+          "digest": "sha256:199cf1676e7dae3e2a85cd04d8c8225a3b35cc0d2120d8d73203cd8024a12ff9",
+          "size": 3712
         }
       ]
     },
