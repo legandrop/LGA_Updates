@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-08T19:02:54Z",
-  "generatedAt": "2026-10-08T19:02:54Z",
+  "checkedAt": "2026-10-09T14:55:48Z",
+  "generatedAt": "2026-10-09T14:55:48Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -467,28 +467,18 @@
       ]
     },
     "legandrop/LGA_FrameRev_Release": {
-      "tag": "v0.274",
-      "publishedAt": "2026-10-04T21:25:41Z",
+      "tag": "v1.004",
+      "publishedAt": "2026-10-09T14:55:21Z",
       "assets": [
         {
-          "name": "LGA_FrameRev_Mac_v0.274.dmg",
-          "digest": "sha256:3439d62447c3693bc53a93aeaadf41ddaf6b890e78374717e0016cde934807f3",
-          "size": 42626082
-        },
-        {
-          "name": "LGA_FrameRev_Mac_v0.274.zip",
-          "digest": "sha256:8d37e0ab8dc81f771b82e0a846d1796c511f7dbe7025990af122f7ac6f619c73",
-          "size": 45397189
-        },
-        {
-          "name": "LGA_FrameRev_Setup_v0.274.exe",
-          "digest": "sha256:2e5fabeecc3d7a7ad771957fb7fd729ab5bba6b7be449f5b2e2d2f658a0a136c",
-          "size": 19684206
+          "name": "LGA_FrameRev_Setup_v1.004.exe",
+          "digest": "sha256:9848f34eafe33c6019d603a8fc2d2a8124045986e54e2f3aa0869923400a8632",
+          "size": 19747368
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:07f3fe4b71957597a1cf75e80b7227bd2dbc1f3a5809827f0d45eb01bd1a390f",
-          "size": 2115
+          "digest": "sha256:c7a94d022808cecdb94cc49b7293e87d35b3e757e669095329720a590522ddbe",
+          "size": 3641
         }
       ],
       "assetLatest": [
@@ -507,18 +497,18 @@
           "size": 45397189
         },
         {
-          "tag": "v0.274",
-          "publishedAt": "2026-10-04T21:25:41Z",
-          "name": "LGA_FrameRev_Setup_v0.274.exe",
-          "digest": "sha256:2e5fabeecc3d7a7ad771957fb7fd729ab5bba6b7be449f5b2e2d2f658a0a136c",
-          "size": 19684206
+          "tag": "v1.004",
+          "publishedAt": "2026-10-09T14:55:21Z",
+          "name": "LGA_FrameRev_Setup_v1.004.exe",
+          "digest": "sha256:9848f34eafe33c6019d603a8fc2d2a8124045986e54e2f3aa0869923400a8632",
+          "size": 19747368
         },
         {
-          "tag": "v0.274",
-          "publishedAt": "2026-10-04T21:25:41Z",
+          "tag": "v1.004",
+          "publishedAt": "2026-10-09T14:55:21Z",
           "name": "whats_new.json",
-          "digest": "sha256:07f3fe4b71957597a1cf75e80b7227bd2dbc1f3a5809827f0d45eb01bd1a390f",
-          "size": 2115
+          "digest": "sha256:c7a94d022808cecdb94cc49b7293e87d35b3e757e669095329720a590522ddbe",
+          "size": 3641
         }
       ]
     },
