@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-11T20:03:05Z",
-  "generatedAt": "2026-10-11T20:03:05Z",
+  "checkedAt": "2026-10-11T20:42:10Z",
+  "generatedAt": "2026-10-11T20:42:10Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -576,34 +576,34 @@
       ]
     },
     "legandrop/LGA_ThetaMacEplorer": {
-      "tag": "v0.997",
-      "publishedAt": "2026-10-11T20:02:44Z",
+      "tag": "v0.998",
+      "publishedAt": "2026-10-11T20:41:52Z",
       "assets": [
         {
-          "name": "LGA_ThetaMacExplorer_Mac_v0.997.dmg",
-          "digest": "sha256:53ed4e884dbc5fc730056ddcc1f77cff902df97ae7e2031b0ac1186e5b4424d1",
-          "size": 40174809
+          "name": "LGA_ThetaMacExplorer_Mac_v0.998.dmg",
+          "digest": "sha256:c847a72587dca6a1432896393ce05d100710e30e22f8d93842516f13080121a9",
+          "size": 40135891
         },
         {
-          "name": "LGA_ThetaMacExplorer_Mac_v0.997.zip",
-          "digest": "sha256:e823ff782f46d6185501326b5fa98386d43494714628f9cf73726f452d48cea0",
-          "size": 42612702
+          "name": "LGA_ThetaMacExplorer_Mac_v0.998.zip",
+          "digest": "sha256:00a46b4424fdef7c37321a6307a0a2576bdf1386d9043c53b34f24489cbedd5d",
+          "size": 42577356
         }
       ],
       "assetLatest": [
         {
-          "tag": "v0.997",
-          "publishedAt": "2026-10-11T20:02:44Z",
-          "name": "LGA_ThetaMacExplorer_Mac_v0.997.dmg",
-          "digest": "sha256:53ed4e884dbc5fc730056ddcc1f77cff902df97ae7e2031b0ac1186e5b4424d1",
-          "size": 40174809
+          "tag": "v0.998",
+          "publishedAt": "2026-10-11T20:41:52Z",
+          "name": "LGA_ThetaMacExplorer_Mac_v0.998.dmg",
+          "digest": "sha256:c847a72587dca6a1432896393ce05d100710e30e22f8d93842516f13080121a9",
+          "size": 40135891
         },
         {
-          "tag": "v0.997",
-          "publishedAt": "2026-10-11T20:02:44Z",
-          "name": "LGA_ThetaMacExplorer_Mac_v0.997.zip",
-          "digest": "sha256:e823ff782f46d6185501326b5fa98386d43494714628f9cf73726f452d48cea0",
-          "size": 42612702
+          "tag": "v0.998",
+          "publishedAt": "2026-10-11T20:41:52Z",
+          "name": "LGA_ThetaMacExplorer_Mac_v0.998.zip",
+          "digest": "sha256:00a46b4424fdef7c37321a6307a0a2576bdf1386d9043c53b34f24489cbedd5d",
+          "size": 42577356
         }
       ],
       "notesMissing": true
