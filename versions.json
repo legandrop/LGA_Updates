@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-13T16:24:55Z",
-  "generatedAt": "2026-10-13T16:24:55Z",
+  "checkedAt": "2026-10-13T16:27:01Z",
+  "generatedAt": "2026-10-13T16:27:01Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -286,6 +286,11 @@
       "publishedAt": "2026-10-13T16:24:24Z",
       "assets": [
         {
+          "name": "FileManagerS3Client_Setup_v0.918.exe",
+          "digest": "sha256:bb20a950761b49427e0bf84e221c1a988a3e8d3f449d955f52dc560c1e464583",
+          "size": 53389619
+        },
+        {
           "name": "FileManagerS3_Setup_v0.918.exe",
           "digest": "sha256:720f922c96dc99b5773dad8ecb57fffc91b1bf7f346c9706d44c1748e64f8602",
           "size": 53386987
@@ -298,11 +303,11 @@
       ],
       "assetLatest": [
         {
-          "tag": "v0.917",
-          "publishedAt": "2026-10-04T21:04:13Z",
-          "name": "FileManagerS3Client_Setup_v0.917.exe",
-          "digest": "sha256:0fbd5eddf09758a2d686efaeb20f0b66cd3d2b1ec8cbe8349840607f43518c9a",
-          "size": 197472150
+          "tag": "v0.918",
+          "publishedAt": "2026-10-13T16:24:24Z",
+          "name": "FileManagerS3Client_Setup_v0.918.exe",
+          "digest": "sha256:bb20a950761b49427e0bf84e221c1a988a3e8d3f449d955f52dc560c1e464583",
+          "size": 53389619
         },
         {
           "tag": "v0.902",
