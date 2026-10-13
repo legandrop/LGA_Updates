@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-13T16:27:01Z",
-  "generatedAt": "2026-10-13T16:27:01Z",
+  "checkedAt": "2026-10-13T18:39:07Z",
+  "generatedAt": "2026-10-13T18:39:07Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -210,23 +210,18 @@
       "notesMissing": true
     },
     "legandrop/LGA_PipeSync_Release": {
-      "tag": "v1.017",
-      "publishedAt": "2026-10-02T12:20:52Z",
+      "tag": "v1.018",
+      "publishedAt": "2026-10-13T18:38:36Z",
       "assets": [
         {
-          "name": "PipeSync_Client_Setup_v1.017.exe",
-          "digest": "sha256:74c22c7468e62c2da4c0975c41334f7caafde44ce0ae9eab1e7fe882e1e7733e",
-          "size": 321242172
-        },
-        {
-          "name": "PipeSync_Setup_v1.017.exe",
-          "digest": "sha256:2d5aeb199361e9872f74695be729e7b6e0b71da63aa398e7d89595547eaa8fd2",
-          "size": 321226249
+          "name": "PipeSync_Setup_v1.018.exe",
+          "digest": "sha256:933bce4ba6ad405638798152f620dc4d7eb90ab900c49855f0ee8f57094545b4",
+          "size": 118242313
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:2870eb3094f6b40406269393171e87c0cd702933e29a01b5b6f31edb3fb516a8",
-          "size": 5396
+          "digest": "sha256:af476bdc7c6ef1e5a0c36da0402806d65370a8eb8bdcfabecc333713e4d6ce22",
+          "size": 32096
         }
       ],
       "assetLatest": [
@@ -266,18 +261,18 @@
           "size": 280738955
         },
         {
-          "tag": "v1.017",
-          "publishedAt": "2026-10-02T12:20:52Z",
-          "name": "PipeSync_Setup_v1.017.exe",
-          "digest": "sha256:2d5aeb199361e9872f74695be729e7b6e0b71da63aa398e7d89595547eaa8fd2",
-          "size": 321226249
+          "tag": "v1.018",
+          "publishedAt": "2026-10-13T18:38:36Z",
+          "name": "PipeSync_Setup_v1.018.exe",
+          "digest": "sha256:933bce4ba6ad405638798152f620dc4d7eb90ab900c49855f0ee8f57094545b4",
+          "size": 118242313
         },
         {
-          "tag": "v1.017",
-          "publishedAt": "2026-10-02T12:20:52Z",
+          "tag": "v1.018",
+          "publishedAt": "2026-10-13T18:38:36Z",
           "name": "whats_new.json",
-          "digest": "sha256:2870eb3094f6b40406269393171e87c0cd702933e29a01b5b6f31edb3fb516a8",
-          "size": 5396
+          "digest": "sha256:af476bdc7c6ef1e5a0c36da0402806d65370a8eb8bdcfabecc333713e4d6ce22",
+          "size": 32096
         }
       ]
     },
