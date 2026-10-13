@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-13T18:47:17Z",
-  "generatedAt": "2026-10-13T18:47:17Z",
+  "checkedAt": "2026-10-13T18:55:56Z",
+  "generatedAt": "2026-10-13T18:55:56Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -214,6 +214,16 @@
       "publishedAt": "2026-10-13T18:38:36Z",
       "assets": [
         {
+          "name": "LGA_PipeSync_Mac_v1.018.dmg",
+          "digest": "sha256:d0b425ea5fc542ca4fc5a17a7d6ff33e08314597eca78fe269d65880a7ce6211",
+          "size": 171656203
+        },
+        {
+          "name": "LGA_PipeSync_Mac_v1.018.zip",
+          "digest": "sha256:10fac935ecc4376d808d4816273f861563ce1f9a2077e1cb0d62eb36bdd19c73",
+          "size": 191526877
+        },
+        {
           "name": "PipeSync_Client_Setup_v1.018.exe",
           "digest": "sha256:3268c373eb6f68ad0e020b2cb7cd9150984ed393bd29ac7677b81935edb747a1",
           "size": 118258262
@@ -231,18 +241,18 @@
       ],
       "assetLatest": [
         {
-          "tag": "v1.014",
-          "publishedAt": "2026-09-28T19:24:22Z",
-          "name": "LGA_PipeSync_Mac_v1.014.dmg",
-          "digest": "sha256:617606c930c91d5eb2689b5558ee3c070c374b66595b7015a5097795ba5a8050",
-          "size": 169013847
+          "tag": "v1.018",
+          "publishedAt": "2026-10-13T18:38:36Z",
+          "name": "LGA_PipeSync_Mac_v1.018.dmg",
+          "digest": "sha256:d0b425ea5fc542ca4fc5a17a7d6ff33e08314597eca78fe269d65880a7ce6211",
+          "size": 171656203
         },
         {
-          "tag": "v1.014",
-          "publishedAt": "2026-09-28T19:24:22Z",
-          "name": "LGA_PipeSync_Mac_v1.014.zip",
-          "digest": "sha256:f7f52f28990a6355ba8ca3d47d277ae5f65b65c2df514530e9113a1518334020",
-          "size": 188569586
+          "tag": "v1.018",
+          "publishedAt": "2026-10-13T18:38:36Z",
+          "name": "LGA_PipeSync_Mac_v1.018.zip",
+          "digest": "sha256:10fac935ecc4376d808d4816273f861563ce1f9a2077e1cb0d62eb36bdd19c73",
+          "size": 191526877
         },
         {
           "tag": "v1.018",
@@ -569,10 +579,42 @@
           "size": 3024
         }
       ]
+    },
+    "legandrop/LGA_ThetaExplorer": {
+      "tag": "v1.026",
+      "publishedAt": "2026-10-13T18:54:51Z",
+      "assets": [
+        {
+          "name": "LGA_ThetaExplorer_Setup_v1.026.exe",
+          "digest": "sha256:3b8afc970d7393c07ab19dd424d7fe752678875efeb7c8a6911f956fed05d436",
+          "size": 11556565
+        },
+        {
+          "name": "SHA256SUMS",
+          "digest": "sha256:15718cf922fba81d648f9dfbd8a1462eb7836c10a5d4a2de4e0d58c20fa55bea",
+          "size": 101
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v1.026",
+          "publishedAt": "2026-10-13T18:54:51Z",
+          "name": "LGA_ThetaExplorer_Setup_v1.026.exe",
+          "digest": "sha256:3b8afc970d7393c07ab19dd424d7fe752678875efeb7c8a6911f956fed05d436",
+          "size": 11556565
+        },
+        {
+          "tag": "v1.026",
+          "publishedAt": "2026-10-13T18:54:51Z",
+          "name": "SHA256SUMS",
+          "digest": "sha256:15718cf922fba81d648f9dfbd8a1462eb7836c10a5d4a2de4e0d58c20fa55bea",
+          "size": 101
+        }
+      ],
+      "notesMissing": true
     }
   },
   "missing": [
-    "legandrop/LGA_SceneBuilder_Release",
-    "legandrop/LGA_ThetaExplorer"
+    "legandrop/LGA_SceneBuilder_Release"
   ]
 }
