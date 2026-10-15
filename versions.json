@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-15T01:42:21Z",
-  "generatedAt": "2026-10-15T01:42:21Z",
+  "checkedAt": "2026-10-15T02:06:36Z",
+  "generatedAt": "2026-10-15T02:06:36Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -537,9 +537,14 @@
           "size": 26483945
         },
         {
+          "name": "LGA_MightyTools_Setup_v1.52.exe",
+          "digest": "sha256:fe976db31333594abcdd7ee3afc4d4ae3beddbb2bee4516fc146733a0ecf8564",
+          "size": 12334600
+        },
+        {
           "name": "SHA256SUMS",
-          "digest": "sha256:3d9d6c3fd1c7c195680e2c09d07e7d6dde99662fe73395c5b6064c348d4e5a9f",
-          "size": 192
+          "digest": "sha256:944983a823bc5b4c7d1ad248bfb3a25e71189b3d6021c06bd3134f00fe469dd7",
+          "size": 290
         },
         {
           "name": "whats_new.json",
@@ -563,18 +568,18 @@
           "size": 26483945
         },
         {
-          "tag": "v1.51",
-          "publishedAt": "2026-10-12T01:11:51Z",
-          "name": "LGA_MightyTools_Setup_v1.51.exe",
-          "digest": "sha256:76362fbf279caaed00a1dcc3461fe57fc3eda18553aa4e8c7602dd38c2e7d7e2",
-          "size": 12311818
+          "tag": "v1.52",
+          "publishedAt": "2026-10-15T01:41:54Z",
+          "name": "LGA_MightyTools_Setup_v1.52.exe",
+          "digest": "sha256:fe976db31333594abcdd7ee3afc4d4ae3beddbb2bee4516fc146733a0ecf8564",
+          "size": 12334600
         },
         {
           "tag": "v1.52",
           "publishedAt": "2026-10-15T01:41:54Z",
           "name": "SHA256SUMS",
-          "digest": "sha256:3d9d6c3fd1c7c195680e2c09d07e7d6dde99662fe73395c5b6064c348d4e5a9f",
-          "size": 192
+          "digest": "sha256:944983a823bc5b4c7d1ad248bfb3a25e71189b3d6021c06bd3134f00fe469dd7",
+          "size": 290
         },
         {
           "tag": "v1.52",
