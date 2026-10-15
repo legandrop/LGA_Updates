@@ -26,7 +26,10 @@
         "PipeSync todavia ofrece su fila en macOS, donde Mighty Tools no tiene release.",
         "",
         "Theta Explorer (2026-10-12) publica en su propio repo publico de codigo:",
-        "LGA_ThetaExplorer."
+        "LGA_ThetaExplorer.",
+        "",
+        "Video Downloader (2026-10-15) tambien publica en su repo publico de codigo,",
+        "LGA_VideoDownloader. Su auto-update (lgaupdate) busca este slug."
     ],
     "repos": [
         "legandrop/LGA_ToolPack-for_Nuke",
@@ -42,6 +45,7 @@
         "legandrop/LGA_FrameRev_Release",
         "legandrop/LGA_SceneBuilder_Release",
         "legandrop/LGA_MightyTools",
-        "legandrop/LGA_ThetaExplorer"
+        "legandrop/LGA_ThetaExplorer",
+        "legandrop/LGA_VideoDownloader"
     ]
 }

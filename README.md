@@ -159,3 +159,5 @@ hubo releases nuevos.
 
 - **PipeSync** — el card de LGA Updates del Tools tab (`src/services/updates/UpdateProbe.cpp`).
 - **FileManager S3** — su auto-actualizacion (`src/services/FM_UpdateService.cpp`).
+- **Video Downloader** — su auto-actualizacion (`libs/lgaupdate`, la misma biblioteca de FrameRev,
+  Media Tools y Theta Explorer), con el slug `legandrop/LGA_VideoDownloader`.
