@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-15T02:33:24Z",
-  "generatedAt": "2026-10-15T02:33:24Z",
+  "checkedAt": "2026-10-15T02:50:23Z",
+  "generatedAt": "2026-10-15T02:50:23Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -214,6 +214,16 @@
       "publishedAt": "2026-10-15T02:32:54Z",
       "assets": [
         {
+          "name": "LGA_PipeSync_Mac_v1.019.dmg",
+          "digest": "sha256:921a500beb68ecc64474a98ce668f37a7520850ca85232b6c6bc1d460bc9c88d",
+          "size": 171420443
+        },
+        {
+          "name": "LGA_PipeSync_Mac_v1.019.zip",
+          "digest": "sha256:e3aa19a98a33710fbc41c9b2c23ada6dcbf94657ede202e3c55e0db70ca23373",
+          "size": 191229745
+        },
+        {
           "name": "PipeSync_Setup_v1.019.exe",
           "digest": "sha256:624d0d40d5b370db3b1213a746b717848e627294628362113a3e57681f5030c8",
           "size": 118327421
@@ -226,18 +236,18 @@
       ],
       "assetLatest": [
         {
-          "tag": "v1.018",
-          "publishedAt": "2026-10-13T18:38:36Z",
-          "name": "LGA_PipeSync_Mac_v1.018.dmg",
-          "digest": "sha256:d75eb0e5f76abe59ff17ec47188a203af05615710315b24a7260d0fd625eb050",
-          "size": 168294407
+          "tag": "v1.019",
+          "publishedAt": "2026-10-15T02:32:54Z",
+          "name": "LGA_PipeSync_Mac_v1.019.dmg",
+          "digest": "sha256:921a500beb68ecc64474a98ce668f37a7520850ca85232b6c6bc1d460bc9c88d",
+          "size": 171420443
         },
         {
-          "tag": "v1.018",
-          "publishedAt": "2026-10-13T18:38:36Z",
-          "name": "LGA_PipeSync_Mac_v1.018.zip",
-          "digest": "sha256:82b7beaafbcf0712b04c89673b6db2b896c5259d0c0b5adeeaad3d568ff36af4",
-          "size": 185812970
+          "tag": "v1.019",
+          "publishedAt": "2026-10-15T02:32:54Z",
+          "name": "LGA_PipeSync_Mac_v1.019.zip",
+          "digest": "sha256:e3aa19a98a33710fbc41c9b2c23ada6dcbf94657ede202e3c55e0db70ca23373",
+          "size": 191229745
         },
         {
           "tag": "v1.018",
