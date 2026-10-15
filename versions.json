@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-15T10:45:43Z",
-  "generatedAt": "2026-10-15T10:45:43Z",
+  "checkedAt": "2026-10-15T13:25:49Z",
+  "generatedAt": "2026-10-15T13:25:49Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -643,6 +643,39 @@
           "name": "SHA256SUMS",
           "digest": "sha256:15718cf922fba81d648f9dfbd8a1462eb7836c10a5d4a2de4e0d58c20fa55bea",
           "size": 101
+        }
+      ],
+      "notesMissing": true
+    },
+    "legandrop/LGA_VideoDownloader": {
+      "tag": "v0.95",
+      "publishedAt": "2026-09-17T14:13:30Z",
+      "assets": [
+        {
+          "name": "SHA256SUMS",
+          "digest": "sha256:1e937464379989b7a14e946b5a9c85f9a4bb1087ebfda69051f77b3dfc0ec46a",
+          "size": 98
+        },
+        {
+          "name": "VideoDownloader_Setup_v0.95.exe",
+          "digest": "sha256:ec234e6e9e7215655bc41e1c815fcae88daac7eeb78b6a067ad9c05d2f28aa10",
+          "size": 84782885
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.95",
+          "publishedAt": "2026-09-17T14:13:30Z",
+          "name": "SHA256SUMS",
+          "digest": "sha256:1e937464379989b7a14e946b5a9c85f9a4bb1087ebfda69051f77b3dfc0ec46a",
+          "size": 98
+        },
+        {
+          "tag": "v0.95",
+          "publishedAt": "2026-09-17T14:13:30Z",
+          "name": "VideoDownloader_Setup_v0.95.exe",
+          "digest": "sha256:ec234e6e9e7215655bc41e1c815fcae88daac7eeb78b6a067ad9c05d2f28aa10",
+          "size": 84782885
         }
       ],
       "notesMissing": true
