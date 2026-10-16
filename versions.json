@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-16T00:19:19Z",
-  "generatedAt": "2026-10-16T00:19:19Z",
+  "checkedAt": "2026-10-16T00:56:00Z",
+  "generatedAt": "2026-10-16T00:56:00Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -210,33 +210,18 @@
       "notesMissing": true
     },
     "legandrop/LGA_PipeSync_Release": {
-      "tag": "v1.019",
-      "publishedAt": "2026-10-15T02:32:54Z",
+      "tag": "v1.021",
+      "publishedAt": "2026-10-16T00:55:26Z",
       "assets": [
         {
-          "name": "LGA_PipeSync_Mac_v1.019.dmg",
-          "digest": "sha256:921a500beb68ecc64474a98ce668f37a7520850ca85232b6c6bc1d460bc9c88d",
-          "size": 171420443
-        },
-        {
-          "name": "LGA_PipeSync_Mac_v1.019.zip",
-          "digest": "sha256:e3aa19a98a33710fbc41c9b2c23ada6dcbf94657ede202e3c55e0db70ca23373",
-          "size": 191229745
-        },
-        {
-          "name": "PipeSync_Client_Setup_v1.019.exe",
-          "digest": "sha256:12d2f6a35d1b73e06134c38636a9237ad0b3fb1980a2909308843cbe5103b6e1",
-          "size": 118343409
-        },
-        {
-          "name": "PipeSync_Setup_v1.019.exe",
-          "digest": "sha256:624d0d40d5b370db3b1213a746b717848e627294628362113a3e57681f5030c8",
-          "size": 118327421
+          "name": "PipeSync_Setup_v1.021.exe",
+          "digest": "sha256:1e90d147204b028e80edfdcd4b295611b801db7bfce32faf97a7644573d43120",
+          "size": 118425048
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:fb77de194144bcb1d434bc7c32f51a34dbbd1a62101bd7012c95fe2319b3f77c",
-          "size": 36762
+          "digest": "sha256:c2dd1e2a0df5deb141092bc90e7bd73a767ed764b9568dc98357f13dbf910631",
+          "size": 38486
         }
       ],
       "assetLatest": [
@@ -276,18 +261,18 @@
           "size": 280738955
         },
         {
-          "tag": "v1.019",
-          "publishedAt": "2026-10-15T02:32:54Z",
-          "name": "PipeSync_Setup_v1.019.exe",
-          "digest": "sha256:624d0d40d5b370db3b1213a746b717848e627294628362113a3e57681f5030c8",
-          "size": 118327421
+          "tag": "v1.021",
+          "publishedAt": "2026-10-16T00:55:26Z",
+          "name": "PipeSync_Setup_v1.021.exe",
+          "digest": "sha256:1e90d147204b028e80edfdcd4b295611b801db7bfce32faf97a7644573d43120",
+          "size": 118425048
         },
         {
-          "tag": "v1.019",
-          "publishedAt": "2026-10-15T02:32:54Z",
+          "tag": "v1.021",
+          "publishedAt": "2026-10-16T00:55:26Z",
           "name": "whats_new.json",
-          "digest": "sha256:fb77de194144bcb1d434bc7c32f51a34dbbd1a62101bd7012c95fe2319b3f77c",
-          "size": 36762
+          "digest": "sha256:c2dd1e2a0df5deb141092bc90e7bd73a767ed764b9568dc98357f13dbf910631",
+          "size": 38486
         }
       ]
     },
