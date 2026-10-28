@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-10-28T16:56:33Z",
-  "generatedAt": "2026-10-28T16:56:33Z",
+  "checkedAt": "2026-10-28T23:27:22Z",
+  "generatedAt": "2026-10-28T23:27:22Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -210,18 +210,18 @@
       "notesMissing": true
     },
     "legandrop/LGA_PipeSync_Release": {
-      "tag": "v1.026",
-      "publishedAt": "2026-10-26T20:12:44Z",
+      "tag": "v1.027",
+      "publishedAt": "2026-10-28T23:26:54Z",
       "assets": [
         {
-          "name": "PipeSync_Setup_v1.026.exe",
-          "digest": "sha256:396e06160edb8c91e837cacb408eb94b19d695b43aa48b526c7b4712fecfcd6b",
-          "size": 119627057
+          "name": "PipeSync_Setup_v1.027.exe",
+          "digest": "sha256:0e7cec4f94196518a072ee6763bc71bcf918054ff96f558bad8c0b9a2d1259bd",
+          "size": 119508501
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:b4442e1ccb47607f5e63471a0fa1cae60f6f08a7446c6c2d4ea923dcbfdddc14",
-          "size": 48358
+          "digest": "sha256:a4c619abdfaef9b857334e2022314bd5e9d79260fdb2937713d4c35899e7491f",
+          "size": 52135
         }
       ],
       "assetLatest": [
@@ -261,18 +261,18 @@
           "size": 280738955
         },
         {
-          "tag": "v1.026",
-          "publishedAt": "2026-10-26T20:12:44Z",
-          "name": "PipeSync_Setup_v1.026.exe",
-          "digest": "sha256:396e06160edb8c91e837cacb408eb94b19d695b43aa48b526c7b4712fecfcd6b",
-          "size": 119627057
+          "tag": "v1.027",
+          "publishedAt": "2026-10-28T23:26:54Z",
+          "name": "PipeSync_Setup_v1.027.exe",
+          "digest": "sha256:0e7cec4f94196518a072ee6763bc71bcf918054ff96f558bad8c0b9a2d1259bd",
+          "size": 119508501
         },
         {
-          "tag": "v1.026",
-          "publishedAt": "2026-10-26T20:12:44Z",
+          "tag": "v1.027",
+          "publishedAt": "2026-10-28T23:26:54Z",
           "name": "whats_new.json",
-          "digest": "sha256:b4442e1ccb47607f5e63471a0fa1cae60f6f08a7446c6c2d4ea923dcbfdddc14",
-          "size": 48358
+          "digest": "sha256:a4c619abdfaef9b857334e2022314bd5e9d79260fdb2937713d4c35899e7491f",
+          "size": 52135
         }
       ]
     },
