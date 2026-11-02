@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T17:08:24Z",
-  "generatedAt": "2026-11-02T17:08:24Z",
+  "checkedAt": "2026-11-02T20:05:57Z",
+  "generatedAt": "2026-11-02T20:05:57Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -445,34 +445,34 @@
       ]
     },
     "legandrop/LGA_MediaTools_Release": {
-      "tag": "v1.000",
-      "publishedAt": "2026-10-16T00:18:52Z",
+      "tag": "v1.001",
+      "publishedAt": "2026-11-02T20:05:31Z",
       "assets": [
         {
-          "name": "LGA_MediaTools_Setup_v1.000.exe",
-          "digest": "sha256:897bd0a68bc8944ee2eb6e1c1322a3b107235cab010fd806a703efd22f1a6183",
-          "size": 145675336
+          "name": "LGA_MediaTools_Setup_v1.001.exe",
+          "digest": "sha256:9fa4c8c763a5e1450f8758b315cf836912f227d7b5d78f7c39695c9f8929a26d",
+          "size": 146290046
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:c0835d17e2769d818b3300f8315d5a26fdfc229352e6cea548c91d531cc55ca8",
-          "size": 6905
+          "digest": "sha256:9713e9ea452163ff295331579119620110739e0fe2b49c422e8c1480f70ede2b",
+          "size": 12140
         }
       ],
       "assetLatest": [
         {
-          "tag": "v1.000",
-          "publishedAt": "2026-10-16T00:18:52Z",
-          "name": "LGA_MediaTools_Setup_v1.000.exe",
-          "digest": "sha256:897bd0a68bc8944ee2eb6e1c1322a3b107235cab010fd806a703efd22f1a6183",
-          "size": 145675336
+          "tag": "v1.001",
+          "publishedAt": "2026-11-02T20:05:31Z",
+          "name": "LGA_MediaTools_Setup_v1.001.exe",
+          "digest": "sha256:9fa4c8c763a5e1450f8758b315cf836912f227d7b5d78f7c39695c9f8929a26d",
+          "size": 146290046
         },
         {
-          "tag": "v1.000",
-          "publishedAt": "2026-10-16T00:18:52Z",
+          "tag": "v1.001",
+          "publishedAt": "2026-11-02T20:05:31Z",
           "name": "whats_new.json",
-          "digest": "sha256:c0835d17e2769d818b3300f8315d5a26fdfc229352e6cea548c91d531cc55ca8",
-          "size": 6905
+          "digest": "sha256:9713e9ea452163ff295331579119620110739e0fe2b49c422e8c1480f70ede2b",
+          "size": 12140
         }
       ]
     },
