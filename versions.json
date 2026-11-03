@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-03T18:25:25Z",
-  "generatedAt": "2026-11-03T18:25:25Z",
+  "checkedAt": "2026-11-03T18:30:36Z",
+  "generatedAt": "2026-11-03T18:30:36Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -394,18 +394,18 @@
       ]
     },
     "legandrop/LGA_ShotPlayer_Release": {
-      "tag": "v1.000",
-      "publishedAt": "2026-10-16T11:39:49Z",
+      "tag": "v1.002",
+      "publishedAt": "2026-11-03T18:30:04Z",
       "assets": [
         {
-          "name": "LGA_Shot_Player_Setup_v1.000.exe",
-          "digest": "sha256:08bf265553f31569eab524d35ed6448f82c1de1210f41a2d91c8bd04707b802c",
-          "size": 133947073
+          "name": "LGA_Shot_Player_Setup_v1.002.exe",
+          "digest": "sha256:ba0f474ad4f40ea38ddd9a8095ec3178de0ec8525881adc8e93128a1436a11a7",
+          "size": 134429300
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:6a1c1d3edcb0722a2639effffee47443884d06e0559f1d7f863e100be2bb0647",
-          "size": 3398
+          "digest": "sha256:2fc24f0483524f8d03ba70d7aaec6cbf4b7abe392d4d410bf3007f57d3b0b34d",
+          "size": 13427
         }
       ],
       "assetLatest": [
@@ -424,18 +424,18 @@
           "size": 197427774
         },
         {
-          "tag": "v1.000",
-          "publishedAt": "2026-10-16T11:39:49Z",
-          "name": "LGA_Shot_Player_Setup_v1.000.exe",
-          "digest": "sha256:08bf265553f31569eab524d35ed6448f82c1de1210f41a2d91c8bd04707b802c",
-          "size": 133947073
+          "tag": "v1.002",
+          "publishedAt": "2026-11-03T18:30:04Z",
+          "name": "LGA_Shot_Player_Setup_v1.002.exe",
+          "digest": "sha256:ba0f474ad4f40ea38ddd9a8095ec3178de0ec8525881adc8e93128a1436a11a7",
+          "size": 134429300
         },
         {
-          "tag": "v1.000",
-          "publishedAt": "2026-10-16T11:39:49Z",
+          "tag": "v1.002",
+          "publishedAt": "2026-11-03T18:30:04Z",
           "name": "whats_new.json",
-          "digest": "sha256:6a1c1d3edcb0722a2639effffee47443884d06e0559f1d7f863e100be2bb0647",
-          "size": 3398
+          "digest": "sha256:2fc24f0483524f8d03ba70d7aaec6cbf4b7abe392d4d410bf3007f57d3b0b34d",
+          "size": 13427
         }
       ]
     },
