@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-02T20:05:57Z",
-  "generatedAt": "2026-11-02T20:05:57Z",
+  "checkedAt": "2026-11-03T18:25:25Z",
+  "generatedAt": "2026-11-03T18:25:25Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -292,23 +292,18 @@
       ]
     },
     "legandrop/LGA_FileManager_Release": {
-      "tag": "v1.000",
-      "publishedAt": "2026-10-27T20:40:47Z",
+      "tag": "v1.001",
+      "publishedAt": "2026-11-03T18:24:56Z",
       "assets": [
         {
-          "name": "FileManagerS3Client_Setup_v1.000.exe",
-          "digest": "sha256:0a8042cbf36d9fcbdbb446772dc6bb2d98214aeec891b8160d605d1d2b145c6f",
-          "size": 53453083
-        },
-        {
-          "name": "FileManagerS3_Setup_v1.000.exe",
-          "digest": "sha256:964dab4aa2041a8f4883d626013544406f7850a8a1249b68d01c83a86aea85d3",
-          "size": 53455158
+          "name": "FileManagerS3_Setup_v1.001.exe",
+          "digest": "sha256:7603aa3ab22b7a924a4505fb661fa8c0aeb11ebf2066cbd86ec16472e0a0a342",
+          "size": 58981194
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:4365608be0d9c9c7b473327358e6fba398c7595f6f6c556d9d7388dc15e91588",
-          "size": 8889
+          "digest": "sha256:3235cd82e0613b9361b5f589af7e235ceb6a3c82cd3441859b87bcdc0070ad87",
+          "size": 9185
         }
       ],
       "assetLatest": [
@@ -334,11 +329,11 @@
           "size": 270275920
         },
         {
-          "tag": "v1.000",
-          "publishedAt": "2026-10-27T20:40:47Z",
-          "name": "FileManagerS3_Setup_v1.000.exe",
-          "digest": "sha256:964dab4aa2041a8f4883d626013544406f7850a8a1249b68d01c83a86aea85d3",
-          "size": 53455158
+          "tag": "v1.001",
+          "publishedAt": "2026-11-03T18:24:56Z",
+          "name": "FileManagerS3_Setup_v1.001.exe",
+          "digest": "sha256:7603aa3ab22b7a924a4505fb661fa8c0aeb11ebf2066cbd86ec16472e0a0a342",
+          "size": 58981194
         },
         {
           "tag": "v0.902",
@@ -390,11 +385,11 @@
           "size": 168481111
         },
         {
-          "tag": "v1.000",
-          "publishedAt": "2026-10-27T20:40:47Z",
+          "tag": "v1.001",
+          "publishedAt": "2026-11-03T18:24:56Z",
           "name": "whats_new.json",
-          "digest": "sha256:4365608be0d9c9c7b473327358e6fba398c7595f6f6c556d9d7388dc15e91588",
-          "size": 8889
+          "digest": "sha256:3235cd82e0613b9361b5f589af7e235ceb6a3c82cd3441859b87bcdc0070ad87",
+          "size": 9185
         }
       ]
     },
