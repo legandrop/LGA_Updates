@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-04T22:03:58Z",
-  "generatedAt": "2026-11-04T00:06:36Z",
+  "checkedAt": "2026-11-05T00:27:10Z",
+  "generatedAt": "2026-11-05T00:27:10Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -674,6 +674,38 @@
         }
       ],
       "notesMissing": true
+    },
+    "legandrop/LGA_ElMusic": {
+      "tag": "v0.1.58",
+      "publishedAt": "2026-11-05T00:26:13Z",
+      "assets": [
+        {
+          "name": "LGA-El-Music-0.1.58-win-x64.zip",
+          "digest": "sha256:17959468cc4855f1e2148ca5d565f975001be8f244fde9ef2e21641106a3e8a2",
+          "size": 162698605
+        },
+        {
+          "name": "whats_new.json",
+          "digest": "sha256:da7c55b478e4c084844ed9fb187059e22a7271f6f4740d288ff4d62d9014ea79",
+          "size": 933
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v0.1.58",
+          "publishedAt": "2026-11-05T00:26:13Z",
+          "name": "LGA-El-Music-0.1.58-win-x64.zip",
+          "digest": "sha256:17959468cc4855f1e2148ca5d565f975001be8f244fde9ef2e21641106a3e8a2",
+          "size": 162698605
+        },
+        {
+          "tag": "v0.1.58",
+          "publishedAt": "2026-11-05T00:26:13Z",
+          "name": "whats_new.json",
+          "digest": "sha256:da7c55b478e4c084844ed9fb187059e22a7271f6f4740d288ff4d62d9014ea79",
+          "size": 933
+        }
+      ]
     }
   },
   "missing": [
