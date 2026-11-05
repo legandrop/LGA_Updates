@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T00:27:10Z",
-  "generatedAt": "2026-11-05T00:27:10Z",
+  "checkedAt": "2026-11-05T01:43:56Z",
+  "generatedAt": "2026-11-05T01:43:56Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -676,18 +676,18 @@
       "notesMissing": true
     },
     "legandrop/LGA_ElMusic": {
-      "tag": "v0.1.58",
-      "publishedAt": "2026-11-05T00:26:13Z",
+      "tag": "v0.1.59",
+      "publishedAt": "2026-11-05T01:43:06Z",
       "assets": [
         {
-          "name": "LGA-El-Music-0.1.58-win-x64.zip",
-          "digest": "sha256:17959468cc4855f1e2148ca5d565f975001be8f244fde9ef2e21641106a3e8a2",
-          "size": 162698605
+          "name": "LGA-El-Music-0.1.59-win-x64.zip",
+          "digest": "sha256:54a9e41adfd818a49b3820a27ac380d53daef48210c940c4dc938e9d2da3d72a",
+          "size": 162706463
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:da7c55b478e4c084844ed9fb187059e22a7271f6f4740d288ff4d62d9014ea79",
-          "size": 933
+          "digest": "sha256:d4c8c26f7f45c3779160497bdfdf34dc6636b06828548b4a38a6fd4627b362c6",
+          "size": 1769
         }
       ],
       "assetLatest": [
@@ -699,11 +699,18 @@
           "size": 162698605
         },
         {
-          "tag": "v0.1.58",
-          "publishedAt": "2026-11-05T00:26:13Z",
+          "tag": "v0.1.59",
+          "publishedAt": "2026-11-05T01:43:06Z",
+          "name": "LGA-El-Music-0.1.59-win-x64.zip",
+          "digest": "sha256:54a9e41adfd818a49b3820a27ac380d53daef48210c940c4dc938e9d2da3d72a",
+          "size": 162706463
+        },
+        {
+          "tag": "v0.1.59",
+          "publishedAt": "2026-11-05T01:43:06Z",
           "name": "whats_new.json",
-          "digest": "sha256:da7c55b478e4c084844ed9fb187059e22a7271f6f4740d288ff4d62d9014ea79",
-          "size": 933
+          "digest": "sha256:d4c8c26f7f45c3779160497bdfdf34dc6636b06828548b4a38a6fd4627b362c6",
+          "size": 1769
         }
       ]
     }
