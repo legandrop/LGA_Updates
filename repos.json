@@ -29,7 +29,10 @@
         "LGA_ThetaExplorer.",
         "",
         "Video Downloader (2026-10-15) tambien publica en su repo publico de codigo,",
-        "LGA_VideoDownloader. Su auto-update (lgaupdate) busca este slug."
+        "LGA_VideoDownloader. Su auto-update (lgaupdate) busca este slug.",
+        "",
+        "El Music (2026-11-04) publica en su propio repo publico de codigo, LGA_ElMusic:",
+        "el codigo de trabajo es privado y se copia ahi en cada release, con el zip de Windows."
     ],
     "repos": [
         "legandrop/LGA_ToolPack-for_Nuke",
@@ -46,6 +49,7 @@
         "legandrop/LGA_SceneBuilder_Release",
         "legandrop/LGA_MightyTools",
         "legandrop/LGA_ThetaExplorer",
-        "legandrop/LGA_VideoDownloader"
+        "legandrop/LGA_VideoDownloader",
+        "legandrop/LGA_ElMusic"
     ]
 }
