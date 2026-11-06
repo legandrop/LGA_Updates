@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-05T18:14:21Z",
-  "generatedAt": "2026-11-05T18:14:21Z",
+  "checkedAt": "2026-11-06T18:08:58Z",
+  "generatedAt": "2026-11-06T18:08:58Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -110,23 +110,23 @@
       "notesMissing": true
     },
     "legandrop/LGA_HeiroTools": {
-      "tag": "v4.024",
-      "publishedAt": "2026-11-05T14:45:38Z",
+      "tag": "v4.025",
+      "publishedAt": "2026-11-06T18:08:28Z",
       "assets": [
         {
-          "name": "LGA_HieroTools_v4.024_client.zip",
-          "digest": "sha256:ee0dd0d6b3a567db10d33238063aa00ea4bdf96e1ea38e8b6e8f14de0d3d4822",
-          "size": 38017567
+          "name": "LGA_HieroTools_v4.025_client.zip",
+          "digest": "sha256:20e78b39cede0d3ae19b80a2e3a8686bf5c6a1d3d21cbba894bf76f4d0504ef6",
+          "size": 38023103
         },
         {
-          "name": "LGA_HieroTools_v4.024_studio.zip",
-          "digest": "sha256:127d1faf3e8621ad06b390940907142f58ba7c693aeed6c42f374d3083eef664",
-          "size": 38017333
+          "name": "LGA_HieroTools_v4.025_studio.zip",
+          "digest": "sha256:59f6c17cb2250b955d75c3acea701ad7c2a89c8b3dd5705a0beca4dfd11e8efe",
+          "size": 38022869
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:42226ca9e3ac53001829ed5db1f7e6ca85f711778d4d63d18f8f3def02bfb6de",
-          "size": 23698
+          "digest": "sha256:9d560d0b44d00c64387caffddaff5135cf10e60bec8effec6a81e062f6d782ee",
+          "size": 24727
         }
       ],
       "assetLatest": [
@@ -152,25 +152,25 @@
           "size": 457175747
         },
         {
-          "tag": "v4.024",
-          "publishedAt": "2026-11-05T14:45:38Z",
-          "name": "LGA_HieroTools_v4.024_client.zip",
-          "digest": "sha256:ee0dd0d6b3a567db10d33238063aa00ea4bdf96e1ea38e8b6e8f14de0d3d4822",
-          "size": 38017567
+          "tag": "v4.025",
+          "publishedAt": "2026-11-06T18:08:28Z",
+          "name": "LGA_HieroTools_v4.025_client.zip",
+          "digest": "sha256:20e78b39cede0d3ae19b80a2e3a8686bf5c6a1d3d21cbba894bf76f4d0504ef6",
+          "size": 38023103
         },
         {
-          "tag": "v4.024",
-          "publishedAt": "2026-11-05T14:45:38Z",
-          "name": "LGA_HieroTools_v4.024_studio.zip",
-          "digest": "sha256:127d1faf3e8621ad06b390940907142f58ba7c693aeed6c42f374d3083eef664",
-          "size": 38017333
+          "tag": "v4.025",
+          "publishedAt": "2026-11-06T18:08:28Z",
+          "name": "LGA_HieroTools_v4.025_studio.zip",
+          "digest": "sha256:59f6c17cb2250b955d75c3acea701ad7c2a89c8b3dd5705a0beca4dfd11e8efe",
+          "size": 38022869
         },
         {
-          "tag": "v4.024",
-          "publishedAt": "2026-11-05T14:45:38Z",
+          "tag": "v4.025",
+          "publishedAt": "2026-11-06T18:08:28Z",
           "name": "whats_new.json",
-          "digest": "sha256:42226ca9e3ac53001829ed5db1f7e6ca85f711778d4d63d18f8f3def02bfb6de",
-          "size": 23698
+          "digest": "sha256:9d560d0b44d00c64387caffddaff5135cf10e60bec8effec6a81e062f6d782ee",
+          "size": 24727
         }
       ]
     },
