@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-07T18:13:04Z",
-  "generatedAt": "2026-11-06T18:08:58Z",
+  "checkedAt": "2026-11-08T04:03:03Z",
+  "generatedAt": "2026-11-08T04:03:03Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -704,6 +704,50 @@
           "name": "whats_new.json",
           "digest": "sha256:e2055f582a20cfb73d41212b49b5a732ca8d041a86dc06ce65f9b035ecd5b5f2",
           "size": 347
+        }
+      ]
+    },
+    "legandrop/LGA_GateBouncer": {
+      "tag": "v1.00",
+      "publishedAt": "2026-11-08T04:02:34Z",
+      "assets": [
+        {
+          "name": "LGA_GateBouncer_Setup_v1.00.exe",
+          "digest": "sha256:670283a12f3919ec320d1b9f2c52b1a4015e089ecc3bfd05b4769e3267eb8827",
+          "size": 14095887
+        },
+        {
+          "name": "SHA256SUMS",
+          "digest": "sha256:dfb9aafca09843dd2779105182590ab7f152321c69eb9818d7e26a4d7d8919ce",
+          "size": 98
+        },
+        {
+          "name": "whats_new.json",
+          "digest": "sha256:1c12a1a65141f66dcef2deed8ab2953a0bde2c06c96b5a6ac962febe8a3c0df7",
+          "size": 1387
+        }
+      ],
+      "assetLatest": [
+        {
+          "tag": "v1.00",
+          "publishedAt": "2026-11-08T04:02:34Z",
+          "name": "LGA_GateBouncer_Setup_v1.00.exe",
+          "digest": "sha256:670283a12f3919ec320d1b9f2c52b1a4015e089ecc3bfd05b4769e3267eb8827",
+          "size": 14095887
+        },
+        {
+          "tag": "v1.00",
+          "publishedAt": "2026-11-08T04:02:34Z",
+          "name": "SHA256SUMS",
+          "digest": "sha256:dfb9aafca09843dd2779105182590ab7f152321c69eb9818d7e26a4d7d8919ce",
+          "size": 98
+        },
+        {
+          "tag": "v1.00",
+          "publishedAt": "2026-11-08T04:02:34Z",
+          "name": "whats_new.json",
+          "digest": "sha256:1c12a1a65141f66dcef2deed8ab2953a0bde2c06c96b5a6ac962febe8a3c0df7",
+          "size": 1387
         }
       ]
     }
