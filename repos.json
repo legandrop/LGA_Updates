@@ -32,7 +32,10 @@
         "LGA_VideoDownloader. Su auto-update (lgaupdate) busca este slug.",
         "",
         "El Music (2026-11-04) publica en su propio repo publico de codigo, LGA_ElMusic:",
-        "el codigo de trabajo es privado y se copia ahi en cada release, con el zip de Windows."
+        "el codigo de trabajo es privado y se copia ahi en cada release, con el zip de Windows.",
+        "",
+        "GateBouncer (2026-11-08) publica en su propio repo publico de codigo, LGA_GateBouncer.",
+        "Su auto-update (lgaupdate) busca este slug."
     ],
     "repos": [
         "legandrop/LGA_ToolPack-for_Nuke",
@@ -50,6 +53,7 @@
         "legandrop/LGA_MightyTools",
         "legandrop/LGA_ThetaExplorer",
         "legandrop/LGA_VideoDownloader",
-        "legandrop/LGA_ElMusic"
+        "legandrop/LGA_ElMusic",
+        "legandrop/LGA_GateBouncer"
     ]
 }
