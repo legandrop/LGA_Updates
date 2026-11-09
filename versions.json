@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-08T19:22:59Z",
-  "generatedAt": "2026-11-08T19:22:59Z",
+  "checkedAt": "2026-11-09T14:09:27Z",
+  "generatedAt": "2026-11-09T14:09:27Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -708,46 +708,46 @@
       ]
     },
     "legandrop/LGA_GateBouncer": {
-      "tag": "v1.01",
-      "publishedAt": "2026-11-08T15:13:27Z",
+      "tag": "v1.02",
+      "publishedAt": "2026-11-09T14:08:56Z",
       "assets": [
         {
-          "name": "LGA_GateBouncer_Setup_v1.01.exe",
-          "digest": "sha256:3212eabc353b75f4a21eee61360b5602eaaf0ed4931948a65ab3f4b7e610c58d",
-          "size": 13814769
+          "name": "LGA_GateBouncer_Setup_v1.02.exe",
+          "digest": "sha256:f1820bba9e5e742201d414fb339f35a1bf51747eccffefaab7eda6a245725853",
+          "size": 13886220
         },
         {
           "name": "SHA256SUMS",
-          "digest": "sha256:3be8a8fcea545fb3e9a843f5616ce8a1de37eda6fdc79432f4b025c802f9c69d",
+          "digest": "sha256:44e2ad63a080d43ae5f580ec63ac26c64fca968b893b4a8bec9578b5bcdc7a24",
           "size": 98
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:b652d649a24ed2351e69a2aac0a679f95bd144b0c1171ae2b57b075079e5b91f",
-          "size": 3176
+          "digest": "sha256:4b9479cf1acaa1180ae5e77cdcb04ab7f4f3ac6e69f3f70667e82b66871d50bf",
+          "size": 5058
         }
       ],
       "assetLatest": [
         {
-          "tag": "v1.01",
-          "publishedAt": "2026-11-08T15:13:27Z",
-          "name": "LGA_GateBouncer_Setup_v1.01.exe",
-          "digest": "sha256:3212eabc353b75f4a21eee61360b5602eaaf0ed4931948a65ab3f4b7e610c58d",
-          "size": 13814769
+          "tag": "v1.02",
+          "publishedAt": "2026-11-09T14:08:56Z",
+          "name": "LGA_GateBouncer_Setup_v1.02.exe",
+          "digest": "sha256:f1820bba9e5e742201d414fb339f35a1bf51747eccffefaab7eda6a245725853",
+          "size": 13886220
         },
         {
-          "tag": "v1.01",
-          "publishedAt": "2026-11-08T15:13:27Z",
+          "tag": "v1.02",
+          "publishedAt": "2026-11-09T14:08:56Z",
           "name": "SHA256SUMS",
-          "digest": "sha256:3be8a8fcea545fb3e9a843f5616ce8a1de37eda6fdc79432f4b025c802f9c69d",
+          "digest": "sha256:44e2ad63a080d43ae5f580ec63ac26c64fca968b893b4a8bec9578b5bcdc7a24",
           "size": 98
         },
         {
-          "tag": "v1.01",
-          "publishedAt": "2026-11-08T15:13:27Z",
+          "tag": "v1.02",
+          "publishedAt": "2026-11-09T14:08:56Z",
           "name": "whats_new.json",
-          "digest": "sha256:b652d649a24ed2351e69a2aac0a679f95bd144b0c1171ae2b57b075079e5b91f",
-          "size": 3176
+          "digest": "sha256:4b9479cf1acaa1180ae5e77cdcb04ab7f4f3ac6e69f3f70667e82b66871d50bf",
+          "size": 5058
         }
       ]
     }
