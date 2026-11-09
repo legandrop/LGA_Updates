@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-09T22:43:28Z",
-  "generatedAt": "2026-11-09T22:43:28Z",
+  "checkedAt": "2026-11-09T23:33:43Z",
+  "generatedAt": "2026-11-09T23:33:43Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -522,14 +522,24 @@
       "publishedAt": "2026-11-09T22:42:34Z",
       "assets": [
         {
+          "name": "LGA_MightyTools_Mac_v1.53.dmg",
+          "digest": "sha256:ba5e55a005fa52fae31038069fc685654a6aaebe03371e471320f76e2e849981",
+          "size": 26262138
+        },
+        {
+          "name": "LGA_MightyTools_Mac_v1.53.zip",
+          "digest": "sha256:84ad10942de809f14baecb9d552e05413aa60c7d3323bfa6e9024141705d7c22",
+          "size": 28067520
+        },
+        {
           "name": "LGA_MightyTools_Setup_v1.53.exe",
           "digest": "sha256:9bb51101e02222e5824a76514d071dc777c69652015d27a89c1c4d6415fc6cbb",
           "size": 13657134
         },
         {
           "name": "SHA256SUMS",
-          "digest": "sha256:d4b9ea8ae9a00db235b48d4919539dbdebd5961b27c40c98b9f15b82ef49aaac",
-          "size": 98
+          "digest": "sha256:5befdaef1a38a15ccccf61f165f6d8bef3090ed4d504cf20ecfffa67673695be",
+          "size": 290
         },
         {
           "name": "whats_new.json",
@@ -539,18 +549,18 @@
       ],
       "assetLatest": [
         {
-          "tag": "v1.52",
-          "publishedAt": "2026-10-15T01:41:54Z",
-          "name": "LGA_MightyTools_Mac_v1.52.dmg",
-          "digest": "sha256:f77fa0adb294dfcb2db74b546bc358f00681fc00cea3eae170dd90d01947c035",
-          "size": 24838975
+          "tag": "v1.53",
+          "publishedAt": "2026-11-09T22:42:34Z",
+          "name": "LGA_MightyTools_Mac_v1.53.dmg",
+          "digest": "sha256:ba5e55a005fa52fae31038069fc685654a6aaebe03371e471320f76e2e849981",
+          "size": 26262138
         },
         {
-          "tag": "v1.52",
-          "publishedAt": "2026-10-15T01:41:54Z",
-          "name": "LGA_MightyTools_Mac_v1.52.zip",
-          "digest": "sha256:43977b8b1cc03b0df8bf513b637f7a366797b876fdba0ea3672fbbb384354e49",
-          "size": 26483945
+          "tag": "v1.53",
+          "publishedAt": "2026-11-09T22:42:34Z",
+          "name": "LGA_MightyTools_Mac_v1.53.zip",
+          "digest": "sha256:84ad10942de809f14baecb9d552e05413aa60c7d3323bfa6e9024141705d7c22",
+          "size": 28067520
         },
         {
           "tag": "v1.53",
@@ -563,8 +573,8 @@
           "tag": "v1.53",
           "publishedAt": "2026-11-09T22:42:34Z",
           "name": "SHA256SUMS",
-          "digest": "sha256:d4b9ea8ae9a00db235b48d4919539dbdebd5961b27c40c98b9f15b82ef49aaac",
-          "size": 98
+          "digest": "sha256:5befdaef1a38a15ccccf61f165f6d8bef3090ed4d504cf20ecfffa67673695be",
+          "size": 290
         },
         {
           "tag": "v1.53",
