@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-10T01:53:21Z",
-  "generatedAt": "2026-11-10T01:53:21Z",
+  "checkedAt": "2026-11-10T02:21:17Z",
+  "generatedAt": "2026-11-10T02:21:17Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -444,6 +444,16 @@
       "publishedAt": "2026-11-08T19:22:33Z",
       "assets": [
         {
+          "name": "LGA_MediaTools_Mac_v1.003.dmg",
+          "digest": "sha256:c104d462400d879e977979c753f8713dff1905b8571cfdf046c7189af2206320",
+          "size": 268570190
+        },
+        {
+          "name": "LGA_MediaTools_Mac_v1.003.zip",
+          "digest": "sha256:751ed3beb88392fd158e4818ecb8fc4eb262a70e6ea6a65d3d06d917ab48f6f4",
+          "size": 300044004
+        },
+        {
           "name": "LGA_MediaTools_Setup_v1.003.exe",
           "digest": "sha256:8fb5aa2b17667f82774f46e63e927a81d7ba3685f673b26fa599ed7f404fcb9d",
           "size": 146422012
@@ -455,6 +465,20 @@
         }
       ],
       "assetLatest": [
+        {
+          "tag": "v1.003",
+          "publishedAt": "2026-11-08T19:22:33Z",
+          "name": "LGA_MediaTools_Mac_v1.003.dmg",
+          "digest": "sha256:c104d462400d879e977979c753f8713dff1905b8571cfdf046c7189af2206320",
+          "size": 268570190
+        },
+        {
+          "tag": "v1.003",
+          "publishedAt": "2026-11-08T19:22:33Z",
+          "name": "LGA_MediaTools_Mac_v1.003.zip",
+          "digest": "sha256:751ed3beb88392fd158e4818ecb8fc4eb262a70e6ea6a65d3d06d917ab48f6f4",
+          "size": 300044004
+        },
         {
           "tag": "v1.003",
           "publishedAt": "2026-11-08T19:22:33Z",
