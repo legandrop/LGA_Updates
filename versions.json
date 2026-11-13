@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13T02:37:20Z",
-  "generatedAt": "2026-11-13T02:37:20Z",
+  "checkedAt": "2026-11-13T09:31:04Z",
+  "generatedAt": "2026-11-13T09:31:04Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -403,6 +403,16 @@
       "publishedAt": "2026-11-13T02:25:41Z",
       "assets": [
         {
+          "name": "LGA_Shot_Player_Mac_v1.004.dmg",
+          "digest": "sha256:da6dd6ee81be16c360b7c978affe1196e1d2e612102ad0931b2fbfe30e5e4d83",
+          "size": 197862825
+        },
+        {
+          "name": "LGA_Shot_Player_Mac_v1.004.zip",
+          "digest": "sha256:2f6f8c379460dcb467cd143c3cf4dade4074591b3d016e04eba684e2201ca99a",
+          "size": 224573484
+        },
+        {
           "name": "LGA_Shot_Player_Setup_v1.004.exe",
           "digest": "sha256:a8a5b4da405ea9d4062c57df27f0d314fa294945982ae3a7762feaeb3393a0a6",
           "size": 134616626
@@ -415,18 +425,18 @@
       ],
       "assetLatest": [
         {
-          "tag": "v1.003",
-          "publishedAt": "2026-11-10T01:52:53Z",
-          "name": "LGA_Shot_Player_Mac_v1.003.dmg",
-          "digest": "sha256:1a961365634132b42d9ec8f6930804f951f10bf7189c4bf9709cbfd18aada9de",
-          "size": 198550368
+          "tag": "v1.004",
+          "publishedAt": "2026-11-13T02:25:41Z",
+          "name": "LGA_Shot_Player_Mac_v1.004.dmg",
+          "digest": "sha256:da6dd6ee81be16c360b7c978affe1196e1d2e612102ad0931b2fbfe30e5e4d83",
+          "size": 197862825
         },
         {
-          "tag": "v1.003",
-          "publishedAt": "2026-11-10T01:52:53Z",
-          "name": "LGA_Shot_Player_Mac_v1.003.zip",
-          "digest": "sha256:631d196d9222a2806efbffd61f0b52cb11262203e92af32c96c419e22e479e5c",
-          "size": 224859647
+          "tag": "v1.004",
+          "publishedAt": "2026-11-13T02:25:41Z",
+          "name": "LGA_Shot_Player_Mac_v1.004.zip",
+          "digest": "sha256:2f6f8c379460dcb467cd143c3cf4dade4074591b3d016e04eba684e2201ca99a",
+          "size": 224573484
         },
         {
           "tag": "v1.004",
