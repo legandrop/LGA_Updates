@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13T02:26:06Z",
-  "generatedAt": "2026-11-13T02:26:06Z",
+  "checkedAt": "2026-11-13T02:35:31Z",
+  "generatedAt": "2026-11-13T02:35:31Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -292,18 +292,18 @@
       ]
     },
     "legandrop/LGA_FileManager_Release": {
-      "tag": "v1.001",
-      "publishedAt": "2026-11-03T18:24:56Z",
+      "tag": "v1.002",
+      "publishedAt": "2026-11-13T02:35:05Z",
       "assets": [
         {
-          "name": "FileManagerS3_Setup_v1.001.exe",
-          "digest": "sha256:7603aa3ab22b7a924a4505fb661fa8c0aeb11ebf2066cbd86ec16472e0a0a342",
-          "size": 58981194
+          "name": "FileManagerS3_Setup_v1.002.exe",
+          "digest": "sha256:a6ce3ff153646f3195488dd314ab733e48b8271cc2f0db60c3108782cfdc92ed",
+          "size": 59049847
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:3235cd82e0613b9361b5f589af7e235ceb6a3c82cd3441859b87bcdc0070ad87",
-          "size": 9185
+          "digest": "sha256:66e438f58714d80f2f642d983ad73fd2113e5d1f8752344ba7aa1376ec80b3b2",
+          "size": 11071
         }
       ],
       "assetLatest": [
@@ -329,11 +329,11 @@
           "size": 270275920
         },
         {
-          "tag": "v1.001",
-          "publishedAt": "2026-11-03T18:24:56Z",
-          "name": "FileManagerS3_Setup_v1.001.exe",
-          "digest": "sha256:7603aa3ab22b7a924a4505fb661fa8c0aeb11ebf2066cbd86ec16472e0a0a342",
-          "size": 58981194
+          "tag": "v1.002",
+          "publishedAt": "2026-11-13T02:35:05Z",
+          "name": "FileManagerS3_Setup_v1.002.exe",
+          "digest": "sha256:a6ce3ff153646f3195488dd314ab733e48b8271cc2f0db60c3108782cfdc92ed",
+          "size": 59049847
         },
         {
           "tag": "v0.902",
@@ -385,11 +385,11 @@
           "size": 168481111
         },
         {
-          "tag": "v1.001",
-          "publishedAt": "2026-11-03T18:24:56Z",
+          "tag": "v1.002",
+          "publishedAt": "2026-11-13T02:35:05Z",
           "name": "whats_new.json",
-          "digest": "sha256:3235cd82e0613b9361b5f589af7e235ceb6a3c82cd3441859b87bcdc0070ad87",
-          "size": 9185
+          "digest": "sha256:66e438f58714d80f2f642d983ad73fd2113e5d1f8752344ba7aa1376ec80b3b2",
+          "size": 11071
         }
       ]
     },
