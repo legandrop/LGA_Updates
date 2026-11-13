@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-13T02:21:02Z",
-  "generatedAt": "2026-11-13T02:21:02Z",
+  "checkedAt": "2026-11-13T02:26:06Z",
+  "generatedAt": "2026-11-13T02:26:06Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -394,28 +394,18 @@
       ]
     },
     "legandrop/LGA_ShotPlayer_Release": {
-      "tag": "v1.003",
-      "publishedAt": "2026-11-10T01:52:53Z",
+      "tag": "v1.004",
+      "publishedAt": "2026-11-13T02:25:41Z",
       "assets": [
         {
-          "name": "LGA_Shot_Player_Mac_v1.003.dmg",
-          "digest": "sha256:1a961365634132b42d9ec8f6930804f951f10bf7189c4bf9709cbfd18aada9de",
-          "size": 198550368
-        },
-        {
-          "name": "LGA_Shot_Player_Mac_v1.003.zip",
-          "digest": "sha256:631d196d9222a2806efbffd61f0b52cb11262203e92af32c96c419e22e479e5c",
-          "size": 224859647
-        },
-        {
-          "name": "LGA_Shot_Player_Setup_v1.003.exe",
-          "digest": "sha256:7311ced1328f0a05a0093a22a848839429d1a2e0c078bc9d8a3270c6ee78631f",
-          "size": 134568933
+          "name": "LGA_Shot_Player_Setup_v1.004.exe",
+          "digest": "sha256:a8a5b4da405ea9d4062c57df27f0d314fa294945982ae3a7762feaeb3393a0a6",
+          "size": 134616626
         },
         {
           "name": "whats_new.json",
-          "digest": "sha256:b9bbeda1b45309d5941625a6777269c4f425e07f56ffe3cec12eec197d2945ae",
-          "size": 15684
+          "digest": "sha256:4bb32ed37faf0355354212613effa1ca2488b278896756d0e6dee6690b3f639a",
+          "size": 19428
         }
       ],
       "assetLatest": [
@@ -434,18 +424,18 @@
           "size": 224859647
         },
         {
-          "tag": "v1.003",
-          "publishedAt": "2026-11-10T01:52:53Z",
-          "name": "LGA_Shot_Player_Setup_v1.003.exe",
-          "digest": "sha256:7311ced1328f0a05a0093a22a848839429d1a2e0c078bc9d8a3270c6ee78631f",
-          "size": 134568933
+          "tag": "v1.004",
+          "publishedAt": "2026-11-13T02:25:41Z",
+          "name": "LGA_Shot_Player_Setup_v1.004.exe",
+          "digest": "sha256:a8a5b4da405ea9d4062c57df27f0d314fa294945982ae3a7762feaeb3393a0a6",
+          "size": 134616626
         },
         {
-          "tag": "v1.003",
-          "publishedAt": "2026-11-10T01:52:53Z",
+          "tag": "v1.004",
+          "publishedAt": "2026-11-13T02:25:41Z",
           "name": "whats_new.json",
-          "digest": "sha256:b9bbeda1b45309d5941625a6777269c4f425e07f56ffe3cec12eec197d2945ae",
-          "size": 15684
+          "digest": "sha256:4bb32ed37faf0355354212613effa1ca2488b278896756d0e6dee6690b3f639a",
+          "size": 19428
         }
       ]
     },
