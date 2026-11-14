@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-14T09:54:05Z",
-  "generatedAt": "2026-11-13T10:13:06Z",
+  "checkedAt": "2026-11-14T09:56:28Z",
+  "generatedAt": "2026-11-14T09:56:28Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -306,6 +306,16 @@
           "size": 59049847
         },
         {
+          "name": "LGA_FileManager_S3_Mac_v1.002.dmg",
+          "digest": "sha256:829dd1f1a4c52107d8bf943746e46a7ba98e92da97c7349d64866c60b8191c92",
+          "size": 169045485
+        },
+        {
+          "name": "LGA_FileManager_S3_Mac_v1.002.zip",
+          "digest": "sha256:69ae33fa47eee12e150357e7ce1bf3f2b38faf95c4917e7d0d24e076247f69f0",
+          "size": 189332300
+        },
+        {
           "name": "whats_new.json",
           "digest": "sha256:66e438f58714d80f2f642d983ad73fd2113e5d1f8752344ba7aa1376ec80b3b2",
           "size": 11071
@@ -376,18 +386,18 @@
           "size": 166334331
         },
         {
-          "tag": "v0.909",
-          "publishedAt": "2026-08-12T20:53:51Z",
-          "name": "LGA_FileManager_S3_Mac_v0.909.dmg",
-          "digest": "sha256:ded3912c9abf38bf02688215c17de4f6fbf160f93d094f10d9b60e9cfce5772a",
-          "size": 150708680
+          "tag": "v1.002",
+          "publishedAt": "2026-11-13T02:35:05Z",
+          "name": "LGA_FileManager_S3_Mac_v1.002.dmg",
+          "digest": "sha256:829dd1f1a4c52107d8bf943746e46a7ba98e92da97c7349d64866c60b8191c92",
+          "size": 169045485
         },
         {
-          "tag": "v0.909",
-          "publishedAt": "2026-08-12T20:53:51Z",
-          "name": "LGA_FileManager_S3_Mac_v0.909.zip",
-          "digest": "sha256:6c21d134f9db8229e065205fcd29c6a95aacc941cd0a1fa953bb1068ff4645f1",
-          "size": 168481111
+          "tag": "v1.002",
+          "publishedAt": "2026-11-13T02:35:05Z",
+          "name": "LGA_FileManager_S3_Mac_v1.002.zip",
+          "digest": "sha256:69ae33fa47eee12e150357e7ce1bf3f2b38faf95c4917e7d0d24e076247f69f0",
+          "size": 189332300
         },
         {
           "tag": "v1.002",
