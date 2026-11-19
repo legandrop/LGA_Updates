@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-19T18:01:52Z",
-  "generatedAt": "2026-11-17T16:43:14Z",
+  "checkedAt": "2026-11-19T19:31:18Z",
+  "generatedAt": "2026-11-19T19:31:18Z",
   "products": {
     "legandrop/LGA_ToolPack-for_Nuke": {
       "tag": "v2.67",
@@ -709,38 +709,6 @@
       ],
       "notesMissing": true
     },
-    "legandrop/LGA_ElMusic": {
-      "tag": "v0.91",
-      "publishedAt": "2026-11-05T10:11:42Z",
-      "assets": [
-        {
-          "name": "LGA_ElMusic_Setup_v0.91.exe",
-          "digest": "sha256:a8adcc4619446f93e778899b29c42fecc8f0547fb63f79e1e9806a5eb174b095",
-          "size": 117910243
-        },
-        {
-          "name": "whats_new.json",
-          "digest": "sha256:e2055f582a20cfb73d41212b49b5a732ca8d041a86dc06ce65f9b035ecd5b5f2",
-          "size": 347
-        }
-      ],
-      "assetLatest": [
-        {
-          "tag": "v0.91",
-          "publishedAt": "2026-11-05T10:11:42Z",
-          "name": "LGA_ElMusic_Setup_v0.91.exe",
-          "digest": "sha256:a8adcc4619446f93e778899b29c42fecc8f0547fb63f79e1e9806a5eb174b095",
-          "size": 117910243
-        },
-        {
-          "tag": "v0.91",
-          "publishedAt": "2026-11-05T10:11:42Z",
-          "name": "whats_new.json",
-          "digest": "sha256:e2055f582a20cfb73d41212b49b5a732ca8d041a86dc06ce65f9b035ecd5b5f2",
-          "size": 347
-        }
-      ]
-    },
     "legandrop/LGA_GateBouncer": {
       "tag": "v1.02",
       "publishedAt": "2026-11-09T14:08:56Z",
@@ -787,6 +755,7 @@
     }
   },
   "missing": [
-    "legandrop/LGA_SceneBuilder_Release"
+    "legandrop/LGA_SceneBuilder_Release",
+    "legandrop/LGA_ElMusic"
   ]
 }
